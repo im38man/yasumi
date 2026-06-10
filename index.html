@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal || www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Mansekai Animation</title>
+      <link rel="stylesheet" href="assets/css/navbar.css">
+      <link rel="stylesheet" href="assets/css/labels.css">
+      <link rel="stylesheet" href="assets/css/page.css">
+      <link rel="stylesheet" href="assets/css/styles.min.css" />
+      <link rel="stylesheet" href="assets/vendor/remixicon.css" />
+  <script type="text/javascript" src="assets/js/inti-pagination.js" charset="utf-8"></script>
+  </head><header>
+        <div class="banner">Hanya website ini yang dikelola oleh Mansekai Project Animation</div>
+        <nav>
+              
+            <div id="logo">
+                Mansekai <br> Animation
+            </div>
+            <ul class="navigation-menu">
+                <li><a href="movies.html">Movies</a>
+                    <ul class="subnav">
+                        <li class="card-med" id="serv-groom">
+                            <div class="card-image"><img src="images/anime.png"></div>
+                            <a href="anime.html">
+                                <span>Anime</span>
+                                <span>More Info<i class="ri-arrow-right-s-line"></i></span>
+                            </a>
+                        </li>
+                        <li class="card-med" id="serv-board">
+                            <div class="card-image"><img src=""></div>
+                            <a href="anichin.html">
+                                <span>Anichin</span>
+                                <span>More Info<i class="ri-arrow-right-s-line"></i></span>
+                            </a>
+                    </ul>
+                </li>
+                <li><a href="categories.html">Categories</a>
+                </li>
+                <li>
+                    <a href="list.hmtl">AnimList</a>
+                </li>
+            </ul>
+            <div id="utility">
+                <a href="search.html"><span class="ri-search-line text-black"></span></a>
+                <a href="search.html"><span class="ri-shopping-cart-line text-black"></span></a>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>“Today’s Animation Recommendations for You”</h1>
+        <div class="btn-group">
+            <a href="index.html"><button class="btn-filled-dark">Anime |<img src="assets/img/flag-japan.png" width="20px">| Japan</button></a>
+            <a href="second.html"><button class="btn-outline-dark btn-hover-color">Anichin |<img src="assets/img/flag-china.png" width="20px">| China</button></a>
+        </div>
+
+    </section>
+    <!--
+    <section>
+        <h2>Shop by Pet</h2>
+
+        <ul class="shop-pets">
+            <li class="card-large card-light" id="sup-dog">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/5ccPOQq69UKQcbmXfjvOScfFc9NXKG0Xu6DPNQ8b0f8/rs:fit:368:247/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMTEw/LzFlODdiYzcyLTBl/OWEtNDFlNS05N2Ey/LTMzYTA4MDQ5MWU1/OC5wbmc.png"></div>
+                <ul>
+                    Dogs
+                    <li><a href="#">Food &amp; Treats</a></li>
+                    <li><a href="#">Toys</a></li>
+                    <li><a href="#">Beds &amp; Furniture</a></li>
+                    <li><a href="#">Outdoor Supplies</a></li>
+                    <li><a href="#">Clothing</a></li>
+
+                    <button class="btn-outline-light">Shop All<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+
+                </ul>
+
+
+            </li>
+
+            <li class="card-large card-dark" id="sup-cat">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/RjiKOF2gGKiIVnIMFi0O1a4aU7DoHfhbkXr2JbUYZ3A/rs:fit:368:313/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMzEy/LzliNDQ3MmVlLWZh/YjMtNDQwNy1iOWVh/LWMwOTdlYWNjNWE3/NS5wbmc.png"></div>
+                <ul>Cats
+                    <li><a href="#">Food &amp; Treats</a></li>
+                    <li><a href="#">Toys</a></li>
+                    <li><a href="#">Beds &amp; Furniture</a></li>
+                    <button class="btn-outline-dark">Shop All<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+
+            <li class="card-large card-dark" id="sup-bird">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/DF-XRInvbvWS9fQSpWc_SegC3meXZK8BmE-PjrdrF3Q/rs:fit:368:396/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzI3/LzQyYWIyNzliLWJj/ZDgtNGEyMC04MGRi/LTk3MzU4YWFmNTVk/OS5wbmc.png"> </div>
+                <ul>Birds
+                    <li><a href="#">Food &amp; Treats</a></li>
+                    <li><a href="#">Toys</a></li>
+                    <li><a href="#">Furniture</a></li>
+                    <button class="btn-outline-dark">Shop All<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+            <li class="card-large card-light" id="sup-fish">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/41Pv7w9rcbn7II_gB2vwvVCQRYE5mvpca1ZbsvMujR0/rs:fit:368:368/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjE5/LzRlZjE1YTgyLTI3/NjYtNDlkNC1hMGE3/LWY4ZjRmNzhjM2M5/NS5wbmc.png"></div>
+                <ul>
+                    Fish
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Aquariums</a></li>
+                    <li><a href="#">Rocks &amp; Decorations</a></li>
+                    <button class="btn-outline-light">Shop All<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Our Services</h2>
+
+        <ul class="services">
+            <li class="card-large card-dark card-wide" id="serv-groom">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/T11rfGmMKgcStJyAFKNgtOfE79cadabx0DVMnvzA9Pk/rs:fit:368:313/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNDQx/LzFlYWU4MWY3LWQ1/ZjYtNDM2Ny1hZjM5/LWVmNTFmMGM5Njk4/MS5wbmc.png"></div>
+                <ul>
+                    Dog Grooming<span class="subtitle">Tail-wagging transformations are our specialty.</span>
+                    <li><a href="#">Coat Care</a><span>$80</span></li>
+                    <li><a href="#">Nail Care</a><span>$16</span></li>
+                    <li><a href="#">Doggie Deluxe Spa Day</a><span>$160</span></li>
+                    <button class="btn-filled-dark"><span class="material-symbols-outlined">
+                            calendar_month
+                        </span>Book Now</button>
+
+                </ul>
+
+
+            </li>
+            <li class="card-large card-dark card-wide" id="serv-board">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/F5Ea1suZtMYimKDkJr0CJLO_1bju6-bTyT1EuDKEg8s/rs:fit:368:254/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjcx/LzVjMzE4NWM0LWZh/NTMtNGQ1OS05ZTM2/LTZjYzBhNGU3ODg0/NC5wbmc.png"></div>
+                <ul>
+                    Dog Boarding<span class="subtitle">Where fun and care never take a day off.</span>
+                    <li><a href="#">Doggie Daycare</a><span>$80</span></li>
+                    <li><a href="#">Short Term Boarding</a><span>$80</span></li>
+                    <button class="btn-filled-dark"><span class="material-symbols-outlined">
+                            calendar_month
+                        </span>Book Now</button>
+                </ul>
+
+            </li>
+        </ul>
+    </section>
+
+    <section id="locate">
+
+        <div>
+            <h2>Location &amp; Hours</h2>
+            <p>Our knowledgeable and friendly staff is always ready to assist you in making the best choices for your furry, feathered, or finned friends.</p>
+            <div class="btn-group">
+                <button class="btn-filled-dark"><span class="material-symbols-outlined">
+pin_drop
+</span>Find a Store</button>
+                <button class="btn-outline-dark btn-hover-color"><span class="material-symbols-outlined">
+contact_support
+</span> Contact Us</button>
+            </div>
+        </div>
+    </section>
+    
+    -->
+    <body>
+      
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+    data-sidebar-position="fixed" data-header-position="fixed">
+      <div class="container-fluid"><br><br><br>
+
+        <div class="card-content" style="display: none">
+        <div class="row">
+            
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt39443176/"><img src="images/Gals Can't Be Kind to Otaku.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/62604/Otaku_ni_Yasashii_Gal_wa_Inai" class="text-light">Otaku ni Yasashii Gal wa inai!?</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S5.Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt11448214/"><img src="images/Rent-a-Girlfriend.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/62485/Kanojo_Okarishimasu_5th_Season" class="text-light">Kanojo, Okarishimasu</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S4.Ep-014</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt7263328/"><img src="images/Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/35507/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e" class="text-light">Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt39122591/"><img src="images/Hidarikiki no Eren.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/53732/Hidarikiki_no_Eren" class="text-light">Hidarikiki no Eren</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt39122769/"><img src="images/Marriagetoxin.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/62601/Marriagetoxin" class="text-light">Marriagetoxin</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S2.Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt23132598/"><img src="images/Lastame.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/53438/Higeki_no_Genkyou_to_Naru_Saikyou_Gedou_Last_Boss_Joou_wa_Tami_no_Tame_ni_Tsukushimasu" class="text-light">Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu.</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-09</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt39122671/"><img src="images/Aishiteru Game wo Owarasetai.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61839/Aishiteru_Game_wo_Owarasetai" class="text-light">Aishiteru Game wo Owarasetai</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt37532971/"><img src="images/I Made Friends with the Second Prettiest Girl in My Class.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/56734/Class_de_2-banme_ni_Kawaii_Onnanoko_to_Tomodachi_ni_Natta" class="text-light">Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt40546998/"><img src="images/Even a Replica Can Fall in Love.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/manga/159246/Replica_datte_Koi_wo_Suru" class="text-light">Replica Datte, Koi wo Suru</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S2.Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt19223420/"><img src="images/Farming Life in Another World.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/62146/Isekai_Nonbiri_Nouka" class="text-light">Isekai Nonbiri Nouka</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-12 End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt33086804/"><img src="images/Rooster Fighter.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/manga/132169/Niwatori_Fighter" class="text-light">Niwatori Fighter</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-1165</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt0388629/"><img src="images/one piece.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/21/One_Piece" class="text-light">One Piece</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-11</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38040630/"><img src="images/The Food Diary of Miss Maid.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/62342/Maid-san_wa_Taberu_dake" class="text-light">Maid-san wa Taberu dake</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt37729351/"><img src="images/Mistress Kanan is Devilishly Easy.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61501/Kanan-sama_wa_Akumade_Choroi" class="text-light">Kanan-sama wa Akumade Choroi</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt37532356/"><img src="images/Yomi no Tsugai.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/62001/Yomi_no_Tsugai" class="text-light">Yomi no Tsugai</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S4.Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt11034066/"><img src="images/iruma.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/39196/Mairimashita_Iruma-kun" class="text-light">Mairimashita! Iruma-kun</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-09</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38895862/"><img src="images/Yowayowa Sensei.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60444/Yowayowa_Sensei" class="text-light">Yowayowa Sensei</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-11</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt41154853/"><img src="images/Saikyou no Shokugyou wa Yuusha demo.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/62825/Saikyou_no_Shokugyou_wa_Yuusha_demo_Kenja_demo_Naku_Kanteishi_Kari_Rashii_desu_yo" class="text-light">Saikyou no Shokugyou wa Yuusha Demon Kenja Demo Naku Kaneti-shi (Kari) Rashii Desu yo?</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S4.Ep-09</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt10885406/"><img src="images/Ascendance of a Bookworm.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/57466/Honzuki_no_Gekokujou__Shisho_ni_Naru_Tame_ni_wa_Shudan_wo_Erandeiraremasen_-_Ryoushu_no_Youjo" class="text-light">Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S2.Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt19064770/"><img src="images/The Angel Next Door Spoils Me Rotten.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/56876/Otonari_no_Tenshi-sama_ni_Itsunomanika_Dame_Ningen_ni_Sareteita_Ken_2" class="text-light">Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-09</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38273912/"><img src="images/Botan Kamiina Fully Blossoms When Drunk.webp" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61186/Kamiina_Botan_Yoeru_Sugata_wa_Yuri_no_Hana" class="text-light">Kamiina Botan, Yoeru Sugata wa Yuri no Hana</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S4.Ep-09</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38650409/"><img src="images/tensei shitara slime.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/37430/Tensei_shitara_Slime_Datta_Ken" class="text-light">Tensei shitara Slime Datta Ken</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt40546935/"><img src="images/Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61687/Jishou_Akuyaku_Reijou_na_Konyakusha_no_Kansatsu_Kiroku" class="text-light">Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt39123061/"><img src="images/Koori no Jouheki.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60852/Koori_no_Jouheki" class="text-light">Koori no Jouheki</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt39122702/"><img src="images/Mata Korosarete.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="http://myanimelist.net/anime/62964/Mata_Korosarete_Shimatta_no_desu_ne_Tantei-sama" class="text-light">Mata Korosarete Shimatta no desu ne, Tantei-sama</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt39122622/"><img src="images/Haibarakun no Tsuyokute Seishun New Game.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61943/Haibara-kun_no_Tsuyokute_Seishun_New_Game" class="text-light">Haibara-kun no Tsuyokute Seishun New Game</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38363695/"><img src="images/Petals of Reincarnation.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/manga/75487/Reincarnation_no_Kaben" class="text-light">Reincarnation no Kaben</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S4.P3Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt9679542/"><img src="images/dr stone.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/38691/Dr_Stone" class="text-light">Dr.Stone</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-09</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt36593277/"><img src="images/Himekishi wa Barbaroi no Yome.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60028/Himekishi_wa_Barbaroi_no_Yome" class="text-light">Himekishi wa Barbaroi no Yome</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt39122552/"><img src="images/Always a Catch.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="http://myanimelist.net/manga/154155/Nigashita_Sakana_wa_Ookikatta_ga_Tsuriageta_Sakana_ga_Ookisugita_Ken" class="text-light">Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S2.Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt34119820/"><img src="images/The Beginning After the End.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60146/Saikyou_no_Ousama_Nidome_no_Jinsei_wa_Nani_wo_Suru" class="text-light">Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S3.Ep-10</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt28100731/"><img src="images/Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/52619/Jidou_Hanbaiki_ni_Umarekawatta_Ore_wa_Meikyuu_wo_Samayou" class="text-light">Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-06</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt40547960/"><img src="images/My Ribdiculous Reincarnation.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/63376/Megami_Isekai_Tensei_Nani_ni_Naritai_desu_ka_Ore_Yuusha_no_Rokkotsu_de" class="text-light">Megami "Isekai Tensei Nani ni Naritai desu ka" Ore "Yuusha no Rokkotsu de"</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">Ep-06</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt40548626/"><img src="images/Tadaima, Ojamasaremasu!.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/63014/Tadaima_Ojamasaremasu" class="text-light">Tadaima, Ojamasaremasu!</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38037498/"><img src="images/Yuusha Party ni Kawaii Ko ga Ita node Kokuhaku shitemita.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61983/Yuusha_Party_ni_Kawaii_Ko_ga_Ita_node_Kokuhaku_shitemita" class="text-light">Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38940229/"><img src="images/Tensei shitara Dragon no Tamago datta.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61207/Tensei_shitara_Dragon_no_Tamago_datta" class="text-light">Tensei shitara Dragon no Tamago datta</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38646634/"><img src="images/Hell Mode Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60460/Hell_Mode__Yarikomizuki_no_Gamer_wa_Hai_Settei_no_Isekai_de_Musou_suru" class="text-light">Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S2.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt22248376/"><img src="images/Sousou no Frieren.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/52991/Sousou_no_Frieren" class="text-light">Sousou no Frieren</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38647635/"><img src="images/Eris no Seihai.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60151/Eris_no_Seihai" class="text-light">Eris no Seihai</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt37901124/"><img src="images/Roll Over and Die.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61587/Omae_Gotoki_ga_Maou_ni_Kateru_to_Omouna_to_Yuusha_Party_wo_Tsuihou_sareta_node_Outo_de_Kimama_ni_Kurashitai" class="text-light">"Omae Gotoki ga Maou ni Kateru to Omouna" to Yuusha Party wo Tsuihou sareta node, Outo de Kimama ni Kurashitai</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S2.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt16156736/"><img src="images/Mato Seihei no Slave.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/58505/Mato_Seihei_no_Slave_2" class="text-light">Mato Seihei no Slave</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt32536168/"><img src="images/Sentenced to Be a Hero.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/56009/Yuusha-kei_ni_Shosu__Choubatsu_Yuusha_9004-tai_Keimu_Kiroku" class="text-light">Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt36632066/"><img src="images/Odayaka Kizoku no Kyuuka no Susume.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60071/Odayaka_Kizoku_no_Kyuuka_no_Susume" class="text-light">Odayaka Kizoku no Kyuuka no Susume.</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S3.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt21030032/"><img src="images/Oshi No Ko.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60058/Oshi_no_Ko_3rd_Season" class="text-light">[Oshi no Ko]</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38977386/"><img src="images/Easygoing Territory Defense by the Optimistic Lord.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61549/Okiraku_Ryoushu_no_Tanoshii_Ryouchi_Bouei__Seisankei_Majutsu_de_Na_mo_Naki_Mura_wo_Saikyou_no_Jousai_Toshi_ni" class="text-light">Okiraku Ryoushu no Tanoshii Ryouchi Bouei: Seisankei Majutsu de Na mo Naki Mura wo Saikyou no Jousai Toshi ni</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38647627/"><img src="images/An Adventurers Daily Grind at Age 29.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61637/29-sai_Dokushin_Chuuken_Boukensha_no_Nichijou" class="text-light">29-sai Dokushin Chuuken Boukensha no Nichijou</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38798044/"><img src="images/Arne no Jikenbo.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60255/Arne_no_Jikenbo" class="text-light">Arne no Jikenbo</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38980445/"><img src="images/Mayonaka Heart Tune.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61211/Mayonaka_Heart_Tune" class="text-light">Mayonaka Heart Tune</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38253018/"><img src="images/You Cant Be in a Rom-Com with Your Childhood Friends.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/43007/Osananajimi_ga_Zettai_ni_Makenai_Love_Comedy" class="text-light">Osananajimi to wa LoveCom ni Naranai</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt37196939/"><img src="images/Kirei-ni-Shitemoraemasu-ka..png" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61782/Kirei_ni_Shitemoraemasu_ka" class="text-light">Kirei ni Shitemoraemasu ka.</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38978132/"><img src="images/Kizoku Tensei.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60692/Kizoku_Tensei__Megumareta_Umare_kara_Saikyou_no_Chikara_wo_Eru" class="text-light">Kizoku Tensei: Megumareta Umare kara Saikyou no Chikara wo Eru</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38646949/"><img src="images/Majutsushi Kunon wa Mieteiru.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/60810/Majutsushi_Kunon_wa_Mieteiru" class="text-light">Majutsushi Kunon wa Mieteiru</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38648925/"><img src="images/Yuusha Party wo Oidasareta Kiyoubinbou.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61128/Yuusha_Party_wo_Oidasareta_Kiyoubinbou" class="text-light">Yuusha Party wo Oidasareta Kiyoubinbou</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt22297712/"><img src="images/My Love Story with Yamada-kun at Lv999.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/53126/Yamada-kun_to_Lv999_no_Koi_wo_Suru" class="text-light">Yamada-kun to Lv999 no Koi wo Suru</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt38969275/"><img src="images/Maou no Musume wa Yasashisugiru.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61884/Maou_no_Musume_wa_Yasashisugiru" class="text-light">Maou no Musume wa Yasashisugiru!!</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2"></label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt2404499/"><img src="images/Kingdom.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61517/Kingdom_6th_Season" class="text-light">Kingdom</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2"></label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt4508902/"><img src="images/One Punch Man.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/63193/One_Punch_Man_3_Part_2" class="text-light">One Punch Man</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2"></label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt13706018/"><img src="images/Spy x Family.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/59027/Spy_x_Family_Season_3" class="text-light">Spy x Family</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt36230718/"><img src="images/My Status as an Assassin.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/61026/Ansatsusha_de_Aru_Ore_no_Status_ga_Yuusha_yori_mo_Akiraka_ni_Tsuyoi_no_da_ga" class="text-light">Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt32742508/"><img src="images/Tomodachi no Imouto ga Ore ni dake Uzai.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/47158/Tomodachi_no_Imouto_ga_Ore_ni_dake_Uzai" class="text-light">Tomodachi no Imouto ga Ore ni dake Uzai</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt32777700/"><img src="images/chichi-eiyu-haha-seirei-musume-tenseiha.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/57888/Chichi_wa_Eiyuu_Haha_wa_Seirei_Musume_no_Watashi_wa_Tenseisha" class="text-light">Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha.</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S2.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt24229160/"><img src="images/Campfire Cooking in Another World.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/57025/Tondemo_Skill_de_Isekai_Hourou_Meshi_2" class="text-light">Tondemo Skill de Isekai Hourou Meshi</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S2.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt11328872/"><img src="images/kyouko suiri.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/44204/Kyokou_Suiri_Season_2" class="text-light">Kyokou Suiri</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt33349897/"><img src="images/I Have a Crush at Work.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/manga/118819/Kono_Kaisha_ni_Suki_na_Hito_ga_Imasu" class="text-light">Kono Kaisha ni Suki na Hito ga Imasu</a></span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card overflow-hidden hover-img">
+            <div class="position-relative">
+              <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2">S1.End</label>
+              <!--<label class="badge text-bg-dark rotated-labels fw-semibold fs-1 position-absolute bottom-8 start-0 py-1 px-2 ms-4"><i class="ri-star-fill text-warning"></i> </label>-->
+              <a href="https://www.imdb.com/title/tt11147864/"><img src="images/Oshi ga Budoukan Ittekuretara Shinu.jpg" class="card-img-top"></a>
+            </div>
+              <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+               <a href="https://myanimelist.net/anime/37890/Oshi_ga_Budoukan_Ittekuretara_Shinu" class="text-light">Oshi ga Budoukan Ittekuretara Shinu</a></span>
+          </div>
+        </div>
+        <!--javascript:void(0)
+        -->
+
+        </div>
+        </div>
+        
+                <div class="pagination-main">
+                    <li class="page-item previous-page"><a class="page-link" href="#">Prev</a></li>
+                    <li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item dots"><a class="page-link" href="#">...</a></li>
+                    <li class="page-item current-page"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item current-page"><a class="page-link" href="#">6</a></li>
+                    <li class="page-item dots"><a class="page-link" href="#">...</a></li>
+                    <li class="page-item current-page"><a class="page-link" href="#">10</a></li>
+                    <li class="page-item next-page"><a class="page-link" href="#">Next</a></li>
+                </div>
+    
+    </div>
+  </div>
+    </body>
+
+    <footer>
+
+        <ul>
+            Genre
+            <li><a href="#">Romance</a></li>
+            <li><a href="#">Comedy</a></li>
+            <li><a href="#">Adventure</a></li>
+        </ul>
+
+        <ul>
+            Popular
+            <li><a href="#">Anime</a></li>
+            <li><a href="#">Anichin</a></li>
+        </ul>
+
+
+        <ul>
+            List
+            <li><a href="#">A-Z Anime</a></li>
+            <li><a href="#">A-Z Anichin</a></li>
+        </ul>
+        <ul>
+            Contact
+            <li><a href="#">firmanhidayat200138@gmail.com</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+
+
+    </footer>
+  
+    <!-- JavaScript -->
+<script type="text/javascript">
+    function getPageList(totalPages, page, maxLength){
+        function range(start, end){
+            return Array.from(Array(end - start + 1), (_, i) => i + start);
+        }
+
+        var sideWidth = maxLength < 9 ? 1 : 2;
+        var leftWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+        var rightWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+
+        if(totalPages <= maxLength){
+            return range(1, totalPages);
+        }
+
+        if(page <= maxLength - sideWidth - 1 - rightWidth){
+            return range(1, maxLength - sideWidth - 1).concat(0, range(totalPages - sideWidth + 1, totalPages));
+        }
+
+        if(page >= totalPages - sideWidth - 1 - rightWidth){
+            return range(1, sideWidth).concat(0, range(totalPages - sideWidth - 1 - rightWidth - leftWidth, totalPages));
+        }
+
+        return range(1, sideWidth).concat(0, range(page - leftWidth, page + rightWidth), 0, range(totalPages - sideWidth + 1, totalPages));
+    }
+
+    $(function(){
+        var numberOfItems = $(".card-content, .col-lg-3").length;
+        var limitPerPage = 16;
+        var totalPages = Math.ceil(numberOfItems / limitPerPage);
+        var paginationSize = 7;
+        var currentPage;
+
+        function showPage(whichPage){
+            if(whichPage < 1 || whichPage > totalPages) return false;
+
+            currentPage = whichPage;
+
+            $(".card-content .col-lg-3").hide().slice((currentPage - 1) * limitPerPage, currentPage * limitPerPage).show();
+
+            $(".pagination-main li").slice(1, -1).remove();
+
+            getPageList(totalPages, currentPage, paginationSize).forEach(item => {
+                $("<li>").addClass("page-item").addClass(item ? "current-page" : "dots")
+                .toggleClass("active-page", item === currentPage).append($("<a>").addClass("page-link")
+                .attr({href: "javascript:void(0)"}).text(item || "...")).insertBefore(".next-page");
+            });
+
+            $(".previous-page").toggleClass("disable", currentPage === 1);
+            $(".next-page").toggleClass("disable", currentPage === totalPages);
+            return true;
+        }
+
+        $(".paginaion").append(
+            $("<li>").addClass("page-item").addClass("previous-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("Prev")),
+            $("<li>").addClass("page-item").addClass("next-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("Next"))
+        );
+
+        $(".card-content").show();
+        showPage(1);
+
+        $(document).on("click", ".pagination-main li.current-page:not(.active)", function(){
+            return showPage(+$(this).text());
+        });
+
+        $(".next-page").on("click", function(){
+            return showPage(currentPage + 1);
+        });
+
+        $(".previous-page").on("click", function(){
+            return showPage(currentPage - 1);
+        });
+    });
+</script>
+  <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+  <script src="assets/libs/simplebar/dist/simplebar.js"></script>
+  <script src="assets/js/app.min.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+  </body>
+</html>
