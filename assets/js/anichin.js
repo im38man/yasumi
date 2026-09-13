@@ -13,7 +13,7 @@ const anichinData = [
   },
   { 
     badgeTop: "S4.Ep-240", 
-    hasStar: false, 
+    hasStar: true, 
     completed: false,
     category: "Anichin",
     tags: ["Sci-Fi", "Action", "Cultivation"],
@@ -25,7 +25,7 @@ const anichinData = [
   },
   { 
     badgeTop: "Ep-157", 
-    hasStar: false, 
+    hasStar: true, 
     completed: false,
     category: "Anichin",
     tags: ["Xianxia", "Revenge", "Action"],
@@ -36,8 +36,8 @@ const anichinData = [
     title: "Renegade Immortal" 
   },
   { 
-    badgeTop: "S5.Ep-207", 
-    hasStar: false, 
+    badgeTop: "S5.Ep-210", 
+    hasStar: true, 
     completed: false,
     category: "Anichin",
     tags: ["Fantasy", "Action", "Cultivation"],
@@ -48,8 +48,8 @@ const anichinData = [
     title: "Battle Through the Heavens" 
   },
   { 
-    badgeTop: "Ep-169", 
-    hasStar: false, 
+    badgeTop: "Ep-170", 
+    hasStar: true, 
     completed: false,
     category: "Anichin",
     tags: ["Action", "Fantasy", "Tang Sect"],
@@ -63,6 +63,7 @@ const anichinData = [
     badgeTop: "End.Ep-208", 
     hasStar: true, 
     completed: true,
+    end: true,
     category: "Anichin",
     tags: ["Divine", "Action", "Fantasy"],
     bio: "Long Hao Chen berjuang menjadi ksatria pelindung suci demi menegakkan keadilan dan melindungi umat manusia.",
