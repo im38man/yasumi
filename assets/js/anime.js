@@ -36,7 +36,7 @@ const animeData = [
     title: "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita."
   },
   {
-    badgeTop: "Ep-1177",
+    badgeTop: "Ep-1178",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -156,7 +156,7 @@ const animeData = [
     title: "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu"
   },
   {
-    badgeTop: "Ep-10",
+    badgeTop: "Ep-11",
     hasStar: false,
     completed: false,
     category: "Anime",
