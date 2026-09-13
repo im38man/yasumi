@@ -49,7 +49,7 @@ const animeData = [
   },
   {
     badgeTop: "Ep-11",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Isekai", "Knight", "Game System"],
@@ -97,7 +97,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Maid", "Heroine", "Comedy"],
@@ -109,7 +109,7 @@ const animeData = [
   },
   {
     badgeTop: "Ep-11",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Saint", "Magic", "Slice of Life"],
@@ -133,7 +133,7 @@ const animeData = [
   },
   {
     badgeTop: "Ep-10",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Prince", "Strategy", "Action"],
@@ -145,7 +145,7 @@ const animeData = [
   },
   {
     badgeTop: "Ep-10",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Revenge", "Magic", "Drama"],
@@ -181,7 +181,7 @@ const animeData = [
   },
   {
     badgeTop: "S4.Ep-13",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Books", "Isekai", "Slice of Life"],
@@ -205,7 +205,7 @@ const animeData = [
   },
   {
     badgeTop: "S2. Ep-01",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Monster", "Hero", "Dark Fantasy"],
@@ -229,7 +229,7 @@ const animeData = [
   },
   {
     badgeTop: "Ep-01",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["School", "Romance", "Childhood Friend"],
@@ -337,7 +337,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Romance", "Game", "School"],
@@ -349,7 +349,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Assassin", "Action", "Romance"],
@@ -361,7 +361,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Replica", "Romance", "Sci-Fi"],
@@ -372,9 +372,9 @@ const animeData = [
     title: "Replica Datte, Koi wo Suru"
   },
   {
-    badgeTop: "Ep-12",
+    badgeTop: "S1.End",
     hasStar: false,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Alcohol", "Yuri", "Comedy"],
     bio: "Kehidupan santai dan menggemaskan dari Botan Kamiina yang sangat menikmati momen saat sedang mabuk.",
@@ -397,7 +397,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Reincarnation", "Action", "Supernatural"],
@@ -411,6 +411,7 @@ const animeData = [
     badgeTop: "S4.P3-End",
     hasStar: true,
     completed: true,
+    end: true,
     category: "Anime",
     tags: ["Science", "Survival", "Shonen"],
     bio: "Senku memimpin kebangkitan peradaban manusia dari zaman batu menggunakan kekuatan sains murni.",
@@ -433,7 +434,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Gal", "Otaku", "Romance"],
@@ -445,7 +446,7 @@ const animeData = [
   },
   {
     badgeTop: "S2.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Reincarnation", "Action", "Fantasy"],
@@ -457,7 +458,7 @@ const animeData = [
   },
   {
     badgeTop: "S3.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Vending Machine", "Isekai", "Dungeon"],
@@ -469,7 +470,7 @@ const animeData = [
   },
   {
     badgeTop: "S5.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Rental Girlfriend", "Romance", "Comedy"],
@@ -481,7 +482,7 @@ const animeData = [
   },
   {
     badgeTop: "S4.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Elite", "School", "Psychological"],
@@ -505,7 +506,7 @@ const animeData = [
   },
   {
     badgeTop: "S2.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Villainess", "Isekai", "Fantasy"],
@@ -517,7 +518,7 @@ const animeData = [
   },
   {
     badgeTop: "S2.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Farming", "Isekai", "Peaceful"],
@@ -541,7 +542,7 @@ const animeData = [
   },
   {
     badgeTop: "S2.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Neighbor", "Romance", "Slice of Life"],
@@ -553,7 +554,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Villainess", "Observation", "Romance"],
@@ -565,7 +566,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Detective", "Mystery", "Comedy"],
@@ -577,7 +578,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["New Game", "Youth", "School"],
@@ -589,7 +590,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Catch", "Romance", "Comedy"],
@@ -601,7 +602,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Food", "Maid", "Slice of Life"],
@@ -625,7 +626,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Rooster", "Fighter", "Action"],
@@ -637,7 +638,7 @@ const animeData = [
   },
   {
     badgeTop: "Ep-06",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Comedy", "Home", "Slice of Life"],
@@ -649,7 +650,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Party", "Romance", "Fantasy"],
@@ -661,7 +662,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Dragon Egg", "Isekai", "Evolution"],
@@ -673,7 +674,7 @@ const animeData = [
   },
   {
     badgeTop: "S2.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Elf", "Magic", "Adventure"],
@@ -685,7 +686,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Drama", "Revenge", "Historical"],
@@ -709,7 +710,7 @@ const animeData = [
   },
   {
     badgeTop: "S2.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Action", "Sci-Fi", "City"],
@@ -721,7 +722,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Hero", "Penal", "Action"],
@@ -745,7 +746,7 @@ const animeData = [
   },
   {
     badgeTop: "S3.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Idol", "Drama", "Mystery"],
@@ -757,7 +758,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Lord", "Magic", "Defense"],
@@ -781,7 +782,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Mystery", "Supernatural", "Investigasi"],
@@ -793,7 +794,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Music", "Romance", "School"],
@@ -805,7 +806,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Romance", "Comedy", "Childhood Friend"],
@@ -817,7 +818,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Laundry", "Slice of Life", "Relax"],
@@ -829,7 +830,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Aristocrat", "Reincarnation", "Magic"],
@@ -841,7 +842,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Magic", "Fantasy", "Action"],
@@ -853,7 +854,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Party", "Versatile", "Adventure"],
@@ -865,7 +866,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Gaming", "Romance", "School"],
@@ -877,7 +878,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Demon", "Daughter", "Comedy"],
@@ -888,9 +889,9 @@ const animeData = [
     title: "Maou no Musume wa Yasashisugiru!!"
   },
   {
-    badgeTop: "",
-    hasStar: false,
-    completed: false,
+    badgeTop: "S6.End",
+    hasStar: true,
+    completed: true,
     category: "Anime",
     tags: ["War", "Kingdom", "Action"],
     bio: "Perang besar di daratan Tiongkok kuno demi menyatukan kerajaan di bawah panji jenderal agung.",
@@ -900,9 +901,9 @@ const animeData = [
     title: "Kingdom"
   },
   {
-    badgeTop: "",
-    hasStar: false,
-    completed: false,
+    badgeTop: "S3.End",
+    hasStar: true,
+    completed: true,
     category: "Anime",
     tags: ["Hero", "Action", "Comedy"],
     bio: "Aksi Saitama, pahlawan botak yang bisa mengalahkan musuh apa pun hanya dengan satu pukulan.",
@@ -912,9 +913,9 @@ const animeData = [
     title: "One Punch Man"
   },
   {
-    badgeTop: "",
-    hasStar: false,
-    completed: false,
+    badgeTop: "S3.End",
+    hasStar: true,
+    completed: true,
     category: "Anime",
     tags: ["Spy", "Family", "Comedy"],
     bio: "Keluarga rahasia bentukan agen mata-mata, pembunuh bayaran, dan anak telepati yang kocak.",
@@ -925,7 +926,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Assassin", "Cheat", "Fantasy"],
@@ -937,7 +938,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Sister", "Comedy", "Romance"],
@@ -949,7 +950,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Hero Father", "Spirit Mother", "Isekai"],
@@ -961,7 +962,7 @@ const animeData = [
   },
   {
     badgeTop: "S2.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Cooking", "Isekai", "Adventure"],
@@ -973,7 +974,7 @@ const animeData = [
   },
   {
     badgeTop: "S2.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Mystery", "Supernatural", "Romance"],
@@ -985,7 +986,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Office", "Romance", "Slice of Life"],
@@ -997,7 +998,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Idol", "Fan", "Drama"],
