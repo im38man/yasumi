@@ -958,62 +958,78 @@
             });
 
             // Render Card Anime/Anichin standar (Grid Poster)
-            function renderAnimeCards(dataToRender) {
-                $("#animlist-nav-container").empty();
-                $("#pagination-container-box").show();
-                var rowContainer = $("#anime-row");
-                rowContainer.empty();
-                
-                dataToRender.forEach(function(anime, index) {
-                    var bottomStarHtml = anime.hasStar 
-                        ? `<div class="position-absolute bottom-0 start-0 m-2 d-flex align-items-center gap-1 px-1 py-0.5 rounded" style="z-index: 25; background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(2px);">
-                               <span class="text-warning" style="font-size: 0.65rem;"><i class="ri-star-fill"></i></span>
-                               <span class="text-white fw-semibold" style="font-size: 0.55rem !important;">Favorit Saya</span>
-                           </div>` 
-                        : '';
-                    
-                    var statusHtml = '';
-                    if (anime.completed === true) {
-                        statusHtml = `<div class="status-ribbon-corner completed">Completed</div>`;
-                    } else if (anime.completed === false) {
-                        statusHtml = `<div class="status-ribbon-corner">Ongoing</div>`;
-                    }
+			function renderAnimeCards(dataToRender) {
+			$("#animlist-nav-container").empty();
+			$("#pagination-container-box").show();
+			var rowContainer = $("#anime-row");
+			rowContainer.empty();
+			
+			dataToRender.forEach(function(anime, index) {
+				
+				// 1. Badge Favorit Saya (Pojok Kiri Bawah)
+				var bottomStarHtml = anime.hasStar 
+					? `<div class="position-absolute bottom-0 start-0 m-2 d-flex align-items-center gap-1 px-2 py-1 rounded" style="z-index: 25; background: rgba(0, 0, 0, 0.75); backdrop-filter: blur(2px);">
+						   <span class="text-warning" style="font-size: 0.75rem;"><i class="ri-star-fill"></i></span>
+						   <span class="text-white fw-semibold" style="font-size: 0.65rem !important;">Favorit Saya</span>
+					   </div>` 
+					: '';
 
-                    var categoryText = anime.category || "Anime";
-                    var tagsArray = anime.tags || [];
-                    var tagsText = Array.isArray(tagsArray) ? tagsArray.join(", ") : (tagsArray || "General");
-                    var bioText = anime.bio || "Penjelasan atau sinopsis lengkap mengenai anime ini belum tersedia di dalam sumber data.";
-                    
-                    var cardHtml = `
-					  <div class="col-6 col-lg-3">
-						<div class="card overflow-hidden hover-img">
-                          <div class="position-relative" style="overflow: hidden;">
-                            <label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2" style="z-index: 15;">${anime.badgeTop || 'New'}</label>
-                            ${bottomStarHtml}
-                            ${statusHtml}
-                            <a href="javascript:void(0)" class="open-detail-modal" 
-                               data-title="${encodeURIComponent(anime.title)}" 
-                               data-image="${anime.image}" 
-                               data-category="${encodeURIComponent(categoryText)}"
-                               data-tags="${encodeURIComponent(tagsText)}"
-                               data-completed="${anime.completed}" 
-                               data-star="${anime.hasStar}" 
-                               data-imdb="${anime.imdbUrl || '#'}" 
-                               data-mal="${anime.malUrl || '#'}"
-                               data-bio="${encodeURIComponent(bioText)}">
-                                <img src="${anime.image}" class="card-img-top">
-                            </a>
-                          </div>
-                            <span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
-                             <a href="${anime.malUrl || '#'}" class="text-light">${anime.title}</a></span>
-                        </div>
-                      </div>
-                    `;
-                    rowContainer.append(cardHtml);
-                });
+				// 2. Logic Baru: Badge "Tamat" Warna Merah jika end: true, dan Sembunyi jika end: false
+				var endStatusHtml = (anime.end === true)
+					? `<div class="position-absolute bottom-0 end-0 m-2 d-flex align-items-center gap-1 px-2 py-1 rounded" style="z-index: 25; background: #dc3545; color: #ffffff;">
+						   <span class="fw-bold" style="font-size: 0.65rem !important;">Tamat</span>
+					   </div>`
+					: ''; // Kosong (disembunyikan) jika false atau undefined
 
-                initPagination();
-            }
+				// 3. Ribbon Completed / Ongoing Diagonal (Pojok Kiri Atas)
+				var statusRibbonHtml = '';
+				if (anime.completed === true) {
+					statusRibbonHtml = `<div class="status-ribbon-corner completed">Completed</div>`;
+				} else if (anime.completed === false) {
+					statusRibbonHtml = `<div class="status-ribbon-corner">Ongoing</div>`;
+				}
+
+				var categoryText = anime.category || "Anime";
+				var tagsArray = anime.tags || [];
+				var tagsText = Array.isArray(tagsArray) ? tagsArray.join(", ") : (tagsArray || "General");
+				var bioText = anime.bio || "Penjelasan atau sinopsis lengkap mengenai anime ini belum tersedia.";
+				
+				var cardHtml = `
+				  <div class="col-6 col-lg-3">
+					<div class="card overflow-hidden hover-img">
+					  <div class="position-relative" style="overflow: hidden;">
+						<!-- Badge Atas Kanan -->
+						<label class="badge text-bg-dark rotated-label fw-semibold fs-1 position-absolute bottom-8 end-0 py-1 px-2" style="z-index: 15;">${anime.badgeTop || 'New'}</label>
+						
+						<!-- Elemen Custom -->
+						${statusRibbonHtml}
+						${bottomStarHtml}
+						${endStatusHtml}
+						
+						<a href="javascript:void(0)" class="open-detail-modal" 
+						   data-title="${encodeURIComponent(anime.title)}" 
+						   data-image="${anime.image}" 
+						   data-category="${encodeURIComponent(categoryText)}"
+						   data-tags="${encodeURIComponent(tagsText)}"
+						   data-completed="${anime.completed}"
+						   data-end="${anime.end || false}"
+						   data-star="${anime.hasStar}" 
+						   data-imdb="${anime.imdbUrl || '#'}" 
+						   data-mal="${anime.malUrl || '#'}"
+						   data-bio="${encodeURIComponent(bioText)}">
+							<img src="${anime.image}" class="card-img-top">
+						</a>
+					  </div>
+						<span class="text-bg-dark text-light text-center fs-1 lh-sm py-1 px-7 fw-semibold position-relative bottom-0 start-0">
+						 <a href="${anime.malUrl || '#'}" class="text-light">${anime.title}</a></span>
+					</div>
+				  </div>
+				`;
+				rowContainer.append(cardHtml);
+			});
+
+			initPagination();
+		}
 
             // Render khusus AnimList (List Title A-Z dengan bar navigasi huruf dan tanpa pagination)
             function renderAnimList(dataToRender) {
@@ -1044,6 +1060,7 @@
                     var tagsArray = anime.tags || [];
                     var tagsText = Array.isArray(tagsArray) ? tagsArray.join(", ") : (tagsArray || "General");
                     var bioText = anime.bio || "Penjelasan atau sinopsis lengkap mengenai anime ini belum tersedia di dalam sumber data.";
+                    var isEnd = anime.end !== undefined ? anime.end : anime.completed;
 
                     var listHtml = `
                       <div class="col-12 animlist-row-item" data-letter="${targetLetter}">
@@ -1054,6 +1071,7 @@
                                data-category="${encodeURIComponent(categoryText)}"
                                data-tags="${encodeURIComponent(tagsText)}"
                                data-completed="${anime.completed}" 
+                               data-end="${isEnd}"
                                data-star="${anime.hasStar}" 
                                data-imdb="${anime.imdbUrl || '#'}" 
                                data-mal="${anime.malUrl || '#'}"
@@ -1091,6 +1109,7 @@
                 var category = decodeURIComponent($(this).data("category"));
                 var tags = decodeURIComponent($(this).data("tags"));
                 var completed = $(this).data("completed");
+                var endStatus = $(this).data("end");
                 var star = $(this).data("star");
                 var imdb = $(this).data("imdb");
                 var mal = $(this).data("mal");
@@ -1100,7 +1119,7 @@
                 $("#detail-title").text(title);
                 $("#detail-category").text(category);
                 $("#detail-tags").text(tags);
-                $("#detail-status").text(completed === true || completed === "true" ? "Completed" : "Ongoing");
+                $("#detail-status").text(endStatus === true || endStatus === "true" ? "Tamat" : "Ongoing");
                 $("#detail-star").text(star === true || star === "true" ? "Ya (Favorit Saya)" : "Tidak");
                 $("#detail-bio").text(bio);
                 $("#detail-imdb").attr("href", imdb);
