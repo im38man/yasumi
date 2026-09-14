@@ -120,7 +120,7 @@ const animeData = [
     title: "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu"
   },
   {
-    badgeTop: "S2. Ep-10",
+    badgeTop: "S2. Ep-11",
     hasStar: false,
     completed: false,
     category: "Anime",
@@ -132,7 +132,7 @@ const animeData = [
     title: "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II"
   },
   {
-    badgeTop: "Ep-10",
+    badgeTop: "Ep-11",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -144,7 +144,7 @@ const animeData = [
     title: "Saikyou Degarashi Ouji no Anyaku Teii Arasoi"
   },
   {
-    badgeTop: "Ep-10",
+    badgeTop: "Ep-11",
     hasStar: true,
     completed: false,
     category: "Anime",
