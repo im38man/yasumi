@@ -108,9 +108,9 @@ const animeData = [
     title: "Heroine? Seijo? Iie, All Works Maid desu (Hokori)!"
   },
   {
-    badgeTop: "Ep-11",
+    badgeTop: "S1.End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Saint", "Magic", "Slice of Life"],
     bio: "Kisah seorang suci lugu yang tanpa sadar menyebarkan kekuatan magis luar biasa ke sekitarnya.",
