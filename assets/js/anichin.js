@@ -12,7 +12,7 @@ const anichinData = [
     title: "Jade Dynasty" 
   },
   { 
-    badgeTop: "S4.Ep-240", 
+    badgeTop: "S4.Ep-241", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -24,7 +24,7 @@ const anichinData = [
     title: "Swallowed Star" 
   },
   { 
-    badgeTop: "Ep-157", 
+    badgeTop: "Ep-158", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
