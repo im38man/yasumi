@@ -84,7 +84,7 @@ const animeData = [
     title: "Lv999 no Murabito"
   },
   {
-    badgeTop: "S2. Ep-10",
+    badgeTop: "S2. Ep-11",
     hasStar: false,
     completed: false,
     category: "Anime",
