@@ -1,6 +1,6 @@
 const animeData = [
   {
-    badgeTop: "S2. Ep-11",
+    badgeTop: "S2. Ep-12",
     hasStar: true,
     completed: false,
     category: "Anime",
