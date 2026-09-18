@@ -48,7 +48,7 @@ const animeData = [
     title: "One Piece"
   },
   {
-    badgeTop: "Ep-11",
+    badgeTop: "Ep-12",
     hasStar: true,
     completed: false,
     category: "Anime",
