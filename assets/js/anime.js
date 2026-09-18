@@ -12,7 +12,7 @@ const animeData = [
     title: "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru"
   },
   {
-    badgeTop: "S4.Ep-22",
+    badgeTop: "S4.Ep-23",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -24,7 +24,7 @@ const animeData = [
     title: "Tensei shitara Slime Datta Ken"
   },
   {
-    badgeTop: "Ep-11",
+    badgeTop: "S1.End",
     hasStar: false,
     completed: false,
     category: "Anime",
