@@ -1,5 +1,17 @@
 const animeData = [
   {
+    badgeTop: "S2. Ep-11",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Romance", "Polar Opposites", "Youth"],
+    bio: "Dinamika hubungan asmara yang manis antara dua siswa sekolah dengan kepribadian yang sangat bertolak belakang.",
+    imdbUrl: "https://www.imdb.com/title/tt36034547/",
+    image: "images/You and I Are Polar Opposites.jpg",
+    malUrl: "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
+    title: "Seihantai na Kimi to Boku"
+  },
+  {
     badgeTop: "S2. Ep-12",
     hasStar: true,
     completed: false,
@@ -26,7 +38,7 @@ const animeData = [
   {
     badgeTop: "S1.End",
     hasStar: false,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Action", "Adventure", "Legend"],
     bio: "Perjalanan penuh aksi setelah bertahan selama 10 tahun dan menjadi legenda yang diakui banyak orang.",
@@ -238,18 +250,6 @@ const animeData = [
     image: "images/Tenkou-saki no Seiso Karen na Bishoujo ga.jpg",
     malUrl: "https://myanimelist.net/anime/56735/Tenkou-saki_no_Seiso_Karen_na_Bishoujo_ga_Mukashi_Danshi_to_Omotte_Issho_ni_Asonda_Osananajimi_Datta_Ken",
     title: "Tenkou-saki no Seiso Karen na Bishoujo ga, Mukashi Danshi to Omotte Issho ni Asonda Osananajimi Datta Ken"
-  },
-  {
-    badgeTop: "S2. Ep-01",
-    hasStar: true,
-    completed: false,
-    category: "Anime",
-    tags: ["Romance", "Polar Opposites", "Youth"],
-    bio: "Dinamika hubungan asmara yang manis antara dua siswa sekolah dengan kepribadian yang sangat bertolak belakang.",
-    imdbUrl: "https://www.imdb.com/title/tt36034547/",
-    image: "images/You and I Are Polar Opposites.jpg",
-    malUrl: "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
-    title: "Seihantai na Kimi to Boku"
   },
   {
     badgeTop: "Ep-01",
