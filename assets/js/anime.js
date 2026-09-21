@@ -121,7 +121,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: true,
+    hasStar: false,
     completed: true,
     category: "Anime",
     tags: ["Saint", "Magic", "Slice of Life"],
@@ -132,7 +132,7 @@ const animeData = [
     title: "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu"
   },
   {
-    badgeTop: "S2. Ep-11",
+    badgeTop: "S2. End",
     hasStar: false,
     completed: false,
     category: "Anime",
@@ -228,9 +228,9 @@ const animeData = [
     title: "Clevatess"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "S1.End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Romance", "Youth", "Drama"],
     bio: "Kisah cinta menyentuh hati di bawah langit malam yang jernih dengan berbagai emosi mendalam.",
