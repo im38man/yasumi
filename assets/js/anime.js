@@ -168,9 +168,9 @@ const animeData = [
     title: "Saikyou Degarashi Ouji no Anyaku Teii Arasoi"
   },
   {
-    badgeTop: "Ep-11",
+    badgeTop: "S1.End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Revenge", "Magic", "Drama"],
     bio: "Kisah wanita bangsawan yang bertekad menggunakan kekuatan buku sihir untuk melakukan pembalasan tuntas.",
