@@ -1,5 +1,17 @@
 const animeData = [
   {
+    badgeTop: "Ep-1179",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Pirates", "Action", "Adventure", "Shonen"],
+    bio: "Petualangan Monkey D. Luffy bersama kelompok Bajak Laut Topi Jerami untuk mencari harta karun legendaris, One Piece.",
+    imdbUrl: "https://www.imdb.com/title/tt0388629/",
+    image: "images/one piece.jpg",
+    malUrl: "https://myanimelist.net/anime/21/One_Piece",
+    title: "One Piece"
+  },
+  {
     badgeTop: "S2. Ep-11",
     hasStar: true,
     completed: false,
@@ -46,18 +58,6 @@ const animeData = [
     image: "images/I Became a Legend after My 10 Year-Long Last Stand.jpg",
     malUrl: "https://myanimelist.net/manga/121282/Koko_wa_Ore_ni_Makasete_Saki_ni_Ike_to_Itte_kara_10-nen_ga_Tattara_Densetsu_ni_Natteita",
     title: "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita."
-  },
-  {
-    badgeTop: "Ep-1178",
-    hasStar: true,
-    completed: false,
-    category: "Anime",
-    tags: ["Pirates", "Action", "Adventure", "Shonen"],
-    bio: "Petualangan Monkey D. Luffy bersama kelompok Bajak Laut Topi Jerami untuk mencari harta karun legendaris, One Piece.",
-    imdbUrl: "https://www.imdb.com/title/tt0388629/",
-    image: "images/one piece.jpg",
-    malUrl: "https://myanimelist.net/anime/21/One_Piece",
-    title: "One Piece"
   },
   {
     badgeTop: "Ep-12",
@@ -168,9 +168,9 @@ const animeData = [
     title: "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu"
   },
   {
-    badgeTop: "Ep-11",
+    badgeTop: "S1.End",
     hasStar: false,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Dungeon", "Rearguard", "Adventure"],
     bio: "Petualangan di dunia labirin dengan peran pendukung barisan belakang terkuat.",
