@@ -1,5 +1,17 @@
 const animeData = [
   {
+    badgeTop: "S1.End",
+    hasStar: true,
+    completed: true,
+    category: "Anime",
+    tags: ["Romance", "Youth", "Drama"],
+    bio: "Kisah cinta menyentuh hati di bawah langit malam yang jernih dengan berbagai emosi mendalam.",
+    imdbUrl: "https://www.imdb.com/title/tt39304754/",
+    image: "images/Love Unseen Beneath the Clear Night Sky.jpg",
+    malUrl: "https://myanimelist.net/anime/62936/Toumei_na_Yoru_ni_Kakeru_Kimi_to_Me_ni_Mienai_Koi_wo_Shita",
+    title: "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita."
+  },
+  {
     badgeTop: "Ep-1179",
     hasStar: true,
     completed: false,
@@ -226,18 +238,6 @@ const animeData = [
     image: "images/Clevatess.jpg",
     malUrl: "https://myanimelist.net/anime/62513/Clevatess_II__Majuu_no_Ou_to_Itsuwari_no_Yuusha_Denshou",
     title: "Clevatess"
-  },
-  {
-    badgeTop: "S1.End",
-    hasStar: true,
-    completed: true,
-    category: "Anime",
-    tags: ["Romance", "Youth", "Drama"],
-    bio: "Kisah cinta menyentuh hati di bawah langit malam yang jernih dengan berbagai emosi mendalam.",
-    imdbUrl: "https://www.imdb.com/title/tt39304754/",
-    image: "images/Love Unseen Beneath the Clear Night Sky.jpg",
-    malUrl: "https://myanimelist.net/anime/62936/Toumei_na_Yoru_ni_Kakeru_Kimi_to_Me_ni_Mienai_Koi_wo_Shita",
-    title: "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita."
   },
   {
     badgeTop: "Ep-01",
