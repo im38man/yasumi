@@ -134,7 +134,7 @@ const animeData = [
   {
     badgeTop: "S2. End",
     hasStar: false,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Skeleton", "Isekai", "Action"],
     bio: "Arck, seorang kesatria kerangka yang berkelana di dunia fantasi untuk menegakkan keadilan.",
@@ -144,9 +144,9 @@ const animeData = [
     title: "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II"
   },
   {
-    badgeTop: "Ep-11",
+    badgeTop: "S1.End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Prince", "Strategy", "Action"],
     bio: "Pangeran buangan yang menyembunyikan kemampuan aslinya demi menghindari konflik perebutan takhta.",
