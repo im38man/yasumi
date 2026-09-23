@@ -108,9 +108,9 @@ const animeData = [
     title: "Lv999 no Murabito"
   },
   {
-    badgeTop: "S2. Ep-11",
+    badgeTop: "S2.End",
     hasStar: false,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Mecha", "Isekai", "Otome Game"],
     bio: "Petualangan Leon dalam bertahan hidup di dunia otome game yang kejam terhadap karakter mob.",
@@ -240,9 +240,9 @@ const animeData = [
     title: "Clevatess"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "S1.End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["School", "Romance", "Childhood Friend"],
     bio: "Pertemuan kembali dengan gadis cantik pujaan sekolah yang ternyata adalah teman masa kecilnya dulu.",
