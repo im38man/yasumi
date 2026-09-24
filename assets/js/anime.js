@@ -1,5 +1,17 @@
 const animeData = [
   {
+    badgeTop: "Ep-13",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Isekai", "Knight", "Game System"],
+    bio: "Ksatria berat buangan yang memanfaatkan pengetahuan sistem game untuk mendobrak batasan dunia.",
+    imdbUrl: "https://www.imdb.com/title/tt33334216/",
+    image: "images/The Exiled Heavy Knight Knows How to Game the System.jpg",
+    malUrl: "https://myanimelist.net/anime/59741/Tsuihou_sareta_Tensei_Juukishi_wa_Game_Chishinki_de_Musou_suru",
+    title: "Tsuihou sareta Tensei Juukishi wa Game Chishinki de Musou suru"
+  },
+  {
     badgeTop: "S1.End",
     hasStar: true,
     completed: true,
@@ -70,18 +82,6 @@ const animeData = [
     image: "images/I Became a Legend after My 10 Year-Long Last Stand.jpg",
     malUrl: "https://myanimelist.net/manga/121282/Koko_wa_Ore_ni_Makasete_Saki_ni_Ike_to_Itte_kara_10-nen_ga_Tattara_Densetsu_ni_Natteita",
     title: "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita."
-  },
-  {
-    badgeTop: "Ep-12",
-    hasStar: true,
-    completed: false,
-    category: "Anime",
-    tags: ["Isekai", "Knight", "Game System"],
-    bio: "Ksatria berat buangan yang memanfaatkan pengetahuan sistem game untuk mendobrak batasan dunia.",
-    imdbUrl: "https://www.imdb.com/title/tt33334216/",
-    image: "images/The Exiled Heavy Knight Knows How to Game the System.jpg",
-    malUrl: "https://myanimelist.net/anime/59741/Tsuihou_sareta_Tensei_Juukishi_wa_Game_Chishinki_de_Musou_suru",
-    title: "Tsuihou sareta Tensei Juukishi wa Game Chishinki de Musou suru"
   },
   {
     badgeTop: "S1.End",
