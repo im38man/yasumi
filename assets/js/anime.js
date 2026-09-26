@@ -48,9 +48,9 @@ const animeData = [
     title: "Seihantai na Kimi to Boku"
   },
   {
-    badgeTop: "S2. Ep-12",
+    badgeTop: "S2.End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Isekai", "Gamer", "Action", "Fantasy"],
     bio: "Seorang gamer hobi mengatur setelan kesulitan ke mode paling ekstrem (Hell Mode) dan terlempar ke dunia lain untuk memulai petualangan musou.",
@@ -60,9 +60,9 @@ const animeData = [
     title: "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru"
   },
   {
-    badgeTop: "S4.Ep-23",
+    badgeTop: "S4.End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Isekai", "Monster", "Magic", "Kingdom Building"],
     bio: "Kisah Satoru Mikami yang tewas tertusuk dan bereinkarnasi sebagai slime bernama Rimuru Tempest di dunia fantasi penuh monster dan sihir.",
