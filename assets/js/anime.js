@@ -1,5 +1,17 @@
 const animeData = [
   {
+    badgeTop: "S2. Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Isekai", "Fantasy", "Action"],
+    bio: "Seorang pemain game veteran yang bereinkarnasi ke dalam tubuh avatar game MMORPG miliknya sebagai penguasa kegelapan yang ditakuti dunia.",
+    imdbUrl: "https://www.imdb.com/title/tt33258199/",
+    image: "images/Yasei no Last Boss ga Arawareta.jpg",
+    malUrl: "https://myanimelist.net/anime/59644/Yasei_no_Last_Boss_ga_Arawareta",
+    title: "Yasei no Last Boss ga Arawareta!"
+  },
+  {
     badgeTop: "Ep-13",
     hasStar: true,
     completed: false,
