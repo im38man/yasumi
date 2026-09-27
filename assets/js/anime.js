@@ -60,6 +60,18 @@ const animeData = [
     title: "Seihantai na Kimi to Boku"
   },
   {
+    badgeTop: "Ep-01",
+    hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Isekai", "Fantasy", "Comedy", "Harem"],
+    bio: "Seorang peminat game bereinkarnasi ke dalam game bishoujo favoritnya, tetapi bukan sebagai protagonis utama melainkan sebagai Kousuke Takioto, karakter figuran sahabat sang tokoh utama.",
+    imdbUrl: "https://www.imdb.com/title/tt41296506/",
+    image: "images/Magical Explorer.jpg",
+    malUrl: "https://myanimelist.net/anime/56733/Magical%E2%98%85Explorer",
+    title: "Magical★Explorer"
+  },
+  {
     badgeTop: "S1.End",
     hasStar: true,
     completed: true,
