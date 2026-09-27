@@ -1,5 +1,29 @@
 const animeData = [
   {
+    badgeTop: "Ep-1179",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Pirates", "Action", "Adventure", "Shonen"],
+    bio: "Petualangan Monkey D. Luffy bersama kelompok Bajak Laut Topi Jerami untuk mencari harta karun legendaris, One Piece.",
+    imdbUrl: "https://www.imdb.com/title/tt0388629/",
+    image: "images/one piece.jpg",
+    malUrl: "https://myanimelist.net/anime/21/One_Piece",
+    title: "One Piece"
+  },
+  {
+    badgeTop: "S3. Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Isekai", "Fantasy", "Reincarnation"],
+    bio: "Seorang pekerja kantoran biasa yang bereinkarnasi ke dunia lain sebagai Ars Louvent, seorang bangsawan rendahan yang lahir dengan kemampuan 'Keluarga Penilai' untuk melihat status dan potensi orang lain.",
+    imdbUrl: "https://www.imdb.com/title/tt31975847/",
+    image: "images/Tensei Kizoku Kantei Skill de Nariagaru.jpg",
+    malUrl: "https://myanimelist.net/anime/55265/Tensei_Kizoku_Kantei_Skill_de_Nariagaru",
+    title: "Tensei Kizoku, Kantei Skill de Nariagaru"
+  },
+  {
     badgeTop: "S2. Ep-01",
     hasStar: true,
     completed: false,
@@ -24,6 +48,18 @@ const animeData = [
     title: "Tsuihou sareta Tensei Juukishi wa Game Chishinki de Musou suru"
   },
   {
+    badgeTop: "S2. Ep-12",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Romance", "Polar Opposites", "Youth"],
+    bio: "Dinamika hubungan asmara yang manis antara dua siswa sekolah dengan kepribadian yang sangat bertolak belakang.",
+    imdbUrl: "https://www.imdb.com/title/tt36034547/",
+    image: "images/You and I Are Polar Opposites.jpg",
+    malUrl: "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
+    title: "Seihantai na Kimi to Boku"
+  },
+  {
     badgeTop: "S1.End",
     hasStar: true,
     completed: true,
@@ -34,30 +70,6 @@ const animeData = [
     image: "images/Love Unseen Beneath the Clear Night Sky.jpg",
     malUrl: "https://myanimelist.net/anime/62936/Toumei_na_Yoru_ni_Kakeru_Kimi_to_Me_ni_Mienai_Koi_wo_Shita",
     title: "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita."
-  },
-  {
-    badgeTop: "Ep-1179",
-    hasStar: true,
-    completed: false,
-    category: "Anime",
-    tags: ["Pirates", "Action", "Adventure", "Shonen"],
-    bio: "Petualangan Monkey D. Luffy bersama kelompok Bajak Laut Topi Jerami untuk mencari harta karun legendaris, One Piece.",
-    imdbUrl: "https://www.imdb.com/title/tt0388629/",
-    image: "images/one piece.jpg",
-    malUrl: "https://myanimelist.net/anime/21/One_Piece",
-    title: "One Piece"
-  },
-  {
-    badgeTop: "S2. Ep-11",
-    hasStar: true,
-    completed: false,
-    category: "Anime",
-    tags: ["Romance", "Polar Opposites", "Youth"],
-    bio: "Dinamika hubungan asmara yang manis antara dua siswa sekolah dengan kepribadian yang sangat bertolak belakang.",
-    imdbUrl: "https://www.imdb.com/title/tt36034547/",
-    image: "images/You and I Are Polar Opposites.jpg",
-    malUrl: "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
-    title: "Seihantai na Kimi to Boku"
   },
   {
     badgeTop: "S2.End",
@@ -82,6 +94,54 @@ const animeData = [
     image: "images/tensei shitara slime.jpg",
     malUrl: "https://myanimelist.net/anime/37430/Tensei_shitara_Slime_Datta_Ken",
     title: "Tensei shitara Slime Datta Ken"
+  },
+  {
+    badgeTop: "S4. End",
+    hasStar: true,
+    completed: true,
+    category: "Anime",
+    tags: ["Demons", "School", "Comedy"],
+    bio: "Iruma Suzuki, manusia yang diadopsi oleh demon agung dan harus menjalani kehidupan sekolah di alam iblis.",
+    imdbUrl: "https://www.imdb.com/title/tt11034066/",
+    image: "images/iruma.jpg",
+    malUrl: "https://myanimelist.net/anime/39196/Mairimashita_Iruma-kun",
+    title: "Mairimashita! Iruma-kun"
+  },
+  {
+    badgeTop: "S4.Ep-13",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Books", "Isekai", "Slice of Life"],
+    bio: "Kisah Myne yang bereinkarnasi ke dunia abad pertengahan dan berjuang demi menciptakan buku seorang diri.",
+    imdbUrl: "https://www.imdb.com/title/tt10885406/",
+    image: "images/Ascendance of a Bookworm.jpg",
+    malUrl: "https://myanimelist.net/anime/57466/Honzuki_no_Gekokujou__Shisho_ni_Naru_Tame_ni_wa_Shudan_wo_Erandeiraremasen_-_Ryoushu_no_Youjo",
+    title: "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo"
+  },
+  {
+    badgeTop: "Ep-02",
+    hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Building", "Lord", "Strategy"],
+    bio: "Perjuangan membangun wilayah perbatasan dari nol tanpa populasi awal yang memadai.",
+    imdbUrl: "https://www.imdb.com/title/tt41054252/",
+    image: "images/The Frontier Lord Begins with Zero Subjects.jpg",
+    malUrl: "https://myanimelist.net/anime/62078/Ryoumin_0-nin_Start_no_Henkyou_Ryoushu-sama",
+    title: "Ryoumin 0-nin Start no Henkyou Ryoushu-sama"
+  },
+  {
+    badgeTop: "S2. Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Monster", "Hero", "Dark Fantasy"],
+    bio: "Pertarungan epik antara Raja Monster Clevatess dan para pahlawan dari umat manusia.",
+    imdbUrl: "https://www.imdb.com/title/tt32991344/",
+    image: "images/Clevatess.jpg",
+    malUrl: "https://myanimelist.net/anime/62513/Clevatess_II__Majuu_no_Ou_to_Itsuwari_no_Yuusha_Denshou",
+    title: "Clevatess"
   },
   {
     badgeTop: "S1.End",
@@ -202,54 +262,6 @@ const animeData = [
     image: "images/The World's Strongest Rearguard.jpg",
     malUrl: "https://myanimelist.net/anime/62435/Sekai_Saikyou_no_Kouei__Meikyuukoku_no_Shinjin_Tansakusha",
     title: "Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha"
-  },
-  {
-    badgeTop: "S4.Ep-15",
-    hasStar: true,
-    completed: false,
-    category: "Anime",
-    tags: ["Demons", "School", "Comedy"],
-    bio: "Iruma Suzuki, manusia yang diadopsi oleh demon agung dan harus menjalani kehidupan sekolah di alam iblis.",
-    imdbUrl: "https://www.imdb.com/title/tt11034066/",
-    image: "images/iruma.jpg",
-    malUrl: "https://myanimelist.net/anime/39196/Mairimashita_Iruma-kun",
-    title: "Mairimashita! Iruma-kun"
-  },
-  {
-    badgeTop: "S4.Ep-13",
-    hasStar: true,
-    completed: false,
-    category: "Anime",
-    tags: ["Books", "Isekai", "Slice of Life"],
-    bio: "Kisah Myne yang bereinkarnasi ke dunia abad pertengahan dan berjuang demi menciptakan buku seorang diri.",
-    imdbUrl: "https://www.imdb.com/title/tt10885406/",
-    image: "images/Ascendance of a Bookworm.jpg",
-    malUrl: "https://myanimelist.net/anime/57466/Honzuki_no_Gekokujou__Shisho_ni_Naru_Tame_ni_wa_Shudan_wo_Erandeiraremasen_-_Ryoushu_no_Youjo",
-    title: "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo"
-  },
-  {
-    badgeTop: "Ep-02",
-    hasStar: false,
-    completed: false,
-    category: "Anime",
-    tags: ["Building", "Lord", "Strategy"],
-    bio: "Perjuangan membangun wilayah perbatasan dari nol tanpa populasi awal yang memadai.",
-    imdbUrl: "https://www.imdb.com/title/tt41054252/",
-    image: "images/The Frontier Lord Begins with Zero Subjects.jpg",
-    malUrl: "https://myanimelist.net/anime/62078/Ryoumin_0-nin_Start_no_Henkyou_Ryoushu-sama",
-    title: "Ryoumin 0-nin Start no Henkyou Ryoushu-sama"
-  },
-  {
-    badgeTop: "S2. Ep-01",
-    hasStar: true,
-    completed: false,
-    category: "Anime",
-    tags: ["Monster", "Hero", "Dark Fantasy"],
-    bio: "Pertarungan epik antara Raja Monster Clevatess dan para pahlawan dari umat manusia.",
-    imdbUrl: "https://www.imdb.com/title/tt32991344/",
-    image: "images/Clevatess.jpg",
-    malUrl: "https://myanimelist.net/anime/62513/Clevatess_II__Majuu_no_Ou_to_Itsuwari_no_Yuusha_Denshou",
-    title: "Clevatess"
   },
   {
     badgeTop: "S1.End",
