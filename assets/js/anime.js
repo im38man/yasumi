@@ -1,6 +1,6 @@
 const animeData = [
   {
-    badgeTop: "Ep-1179",
+    badgeTop: "Ep-1180",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -11,6 +11,18 @@ const animeData = [
     malUrl: "https://myanimelist.net/anime/21/One_Piece",
     title: "One Piece"
   },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Fantasy", "VRMMO", "Shonen"],
+    bio: "Kisah Grid, seorang pemain game VR 'Satisfy' yang terlilit utang dan sial, hingga hidupnya berubah total setelah mendapatkan kelas pewaris legenda Blacksmith (Pandai Besi).",
+    imdbUrl: "https://www.imdb.com/title/tt43691353/",
+    image: "images/overgeared.jpg",
+    malUrl: "https://myanimelist.net/anime/64340/Tempal__Item_no_Chikara",
+    title: "Tempal: Item no Chikara"
+  }
   {
     badgeTop: "S3. Ep-01",
     hasStar: true,
