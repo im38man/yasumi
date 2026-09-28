@@ -312,9 +312,9 @@ const animeData = [
     title: "Iwamoto-senpai no Suisen"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "S1. End",
     hasStar: false,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Rich Girl", "Care", "Romance"],
     bio: "Menjaga dan merawat nona muda kaya raya di sekolah elite yang payah dalam mengurus diri sendiri.",
@@ -324,9 +324,9 @@ const animeData = [
     title: "Saijo no Osewa: Takane no Hanadarake na Meimonkou de, Gakuin Ichi no Ojousama (Seikatsu Nouryoku Kaimu) wo Kagenagara Osewa suru Koto ni Narimashita"
   },
   {
-    badgeTop: "Ep-13",
+    badgeTop: "S1. End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Supernatural", "Action", "Mystery"],
     bio: "Petualangan misterius penuh kekuatan gaib dan ikatan pertarungan para penjaga rahasia.",
