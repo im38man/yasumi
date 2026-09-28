@@ -156,9 +156,9 @@ const animeData = [
     title: "Ryoumin 0-nin Start no Henkyou Ryoushu-sama"
   },
   {
-    badgeTop: "S2. Ep-01",
+    badgeTop: "S2. End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Monster", "Hero", "Dark Fantasy"],
     bio: "Pertarungan epik antara Raja Monster Clevatess dan para pahlawan dari umat manusia.",
