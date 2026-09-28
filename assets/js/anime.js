@@ -22,7 +22,7 @@ const animeData = [
     image: "images/overgeared.jpg",
     malUrl: "https://myanimelist.net/anime/64340/Tempal__Item_no_Chikara",
     title: "Tempal: Item no Chikara"
-  }
+  },
   {
     badgeTop: "S3. Ep-01",
     hasStar: true,
