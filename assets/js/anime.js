@@ -144,6 +144,18 @@ const animeData = [
     title: "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo"
   },
   {
+    badgeTop: "S2. End",
+    hasStar: false,
+    completed: true,
+    category: "Anime",
+    tags: ["Action", "Fantasy", "Martial Arts"],
+    bio: "Beryl Gardenant, seorang instruktur pedang paruh baya di pedesaan, tiba-tiba didatangi oleh mantan muridnya yang kini menjadi kesatria terkenal. Ia diminta untuk menjadi instruktur khusus di ibu kota, yang membuatnya terlibat dalam berbagai peristiwa besar.",
+    imdbUrl: "https://www.imdb.com/title/tt35346717/",
+    image: "images/Katainaka no Ossan Kensei ni Naru.jpg",
+    malUrl: "https://myanimelist.net/anime/59452/Katainaka_no_Ossan_Kensei_ni_Naru",
+    title: "Katainaka no Ossan, Kensei ni Naru"
+  },
+  {
     badgeTop: "Ep-02",
     hasStar: false,
     completed: false,
