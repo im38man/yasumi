@@ -12,18 +12,6 @@ const animeData = [
     title: "One Piece"
   },
   {
-    badgeTop: "Ep-01",
-    hasStar: true,
-    completed: false,
-    category: "Anime",
-    tags: ["Action", "Fantasy", "VRMMO", "Shonen"],
-    bio: "Kisah Grid, seorang pemain game VR 'Satisfy' yang terlilit utang dan sial, hingga hidupnya berubah total setelah mendapatkan kelas pewaris legenda Blacksmith (Pandai Besi).",
-    imdbUrl: "https://www.imdb.com/title/tt43691353/",
-    image: "images/overgeared.jpg",
-    malUrl: "https://myanimelist.net/anime/64340/Tempal__Item_no_Chikara",
-    title: "Tempal: Item no Chikara"
-  },
-  {
     badgeTop: "S3. Ep-01",
     hasStar: true,
     completed: false,
@@ -34,6 +22,18 @@ const animeData = [
     image: "images/Tensei Kizoku Kantei Skill de Nariagaru.jpg",
     malUrl: "https://myanimelist.net/anime/55265/Tensei_Kizoku_Kantei_Skill_de_Nariagaru",
     title: "Tensei Kizoku, Kantei Skill de Nariagaru"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Fantasy", "VRMMO", "Shonen"],
+    bio: "Kisah Grid, seorang pemain game VR 'Satisfy' yang terlilit utang dan sial, hingga hidupnya berubah total setelah mendapatkan kelas pewaris legenda Blacksmith (Pandai Besi).",
+    imdbUrl: "https://www.imdb.com/title/tt43691353/",
+    image: "images/overgeared.jpg",
+    malUrl: "https://myanimelist.net/anime/64340/Tempal__Item_no_Chikara",
+    title: "Tempal: Item no Chikara"
   },
   {
     badgeTop: "S2. Ep-01",
