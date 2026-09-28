@@ -685,9 +685,9 @@ const animeData = [
     title: "Rooster Fighter"
   },
   {
-    badgeTop: "Ep-06",
+    badgeTop: "S1. End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Comedy", "Home", "Slice of Life"],
     bio: "Kisah keseharian penuh kekacauan seru ketika seseorang bertamu dan merepotkan tuan rumah.",
