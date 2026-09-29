@@ -781,6 +781,18 @@ const animeData = [
     title: "Mato Seihei no Slave"
   },
   {
+    badgeTop: "S2.End",
+    title: "Kakkou no Iinazuke",
+    image: "images/Kakkou no Iinazuke.jpg",
+    category: "Anime",
+    tags: ["Romance", "Comedy", "Harem"],
+    completed: true,
+    hasStar: true,
+    imdbUrl: "https://www.imdb.com/title/tt14400866/",
+    malUrl: "https://myanimelist.net/anime/48675/Kakkou_no_Iinazuke",
+    bio: "Cerita berpusat pada Nagi Umino dan Erika Amano yang tertukar saat lahir. Ketika mereka akhirnya dipertemukan dengan keluarga kandung masing-masing, orang tua mereka memutuskan untuk menjodohkan mereka agar kedua keluarga dapat bersatu tanpa harus berpisah dengan anak yang telah mereka besarkan."
+  },
+  {
     badgeTop: "S1.End",
     hasStar: true,
     completed: true,
