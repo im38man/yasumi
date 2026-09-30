@@ -156,7 +156,7 @@ const animeData = [
     title: "Katainaka no Ossan, Kensei ni Naru"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "S1. End",
     hasStar: false,
     completed: false,
     category: "Anime",
