@@ -1069,6 +1069,30 @@ const animeData = [
     title: "Kono Kaisha ni Suki na Hito ga Imasu"
   },
   {
+  badgeTop: "S1.End",
+  hasStar: false,
+  completed: true,
+  category: "Anime",
+  tags: ["Action", "Adventure", "Fantasy"],
+  bio: "Seorang petualang yang terus melatih skill dasar 'Parry' hingga ke tingkat dewa, namun tetap menganggap dirinya lemah karena salah paham.",
+  imdbUrl: "https://www.imdb.com/tt32395862/", 
+  image: "images/Ore wa Subete wo Parry suru.jpg",
+  malUrl: "https://myanimelist.net/anime/57058/Ore_wa_Subete_wo_Parry_suru__Gyaku_Kanchigai_no_Sekai_Saikyou_wa_Boukensha_ni_Naritai",
+  title: "Ore wa Subete wo \"Parry\" suru: Gyaku Kanchigai no Sekai Saikyou wa Boukensha ni Naritai"
+  },
+  {
+  badgeTop: "S1.End",
+  hasStar: false,
+  completed: true,
+  category: "Anime",
+  tags: ["Romance", "Comedy", "School"],
+  bio: "Berharap mendapat pengakuan cinta dari gadis-gadis populer, pemuda ini malah dihadapkan pada kenyataan bahwa hanya satu gadis berkacamata dengan lidah tajam yang menyukainya.",
+  imdbUrl: "https://www.imdb.com/tt10883006/",
+  image: "images/Ore wo Suki nano wa Omae dake ka yo.jpg",
+  malUrl: "https://myanimelist.net/anime/38483/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo",
+  title: "Ore wo Suki nano wa Omae dake ka yo"
+  },
+  {
     badgeTop: "S1.End",
     hasStar: true,
     completed: true,
