@@ -12,6 +12,42 @@ const animeData = [
     title: "One Piece"
   },
   {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Psychological", "Seinen", "Trading", "Comedy"],
+    bio: "Mahasiswi yang terjun ke dunia trading valuta asing (FX) berisiko tinggi demi mengembalikan uang 20 juta yen yang hilang akibat ibunya.",
+    imdbUrl: "https://www.imdb.com/title/tt43119470/",
+    image: "images/FX Senshi Kurumi-chan.jpg",
+    malUrl: "https://myanimelist.net/anime/63337/FX_Senshi_Kurumi-chan",
+    title: "FX Senshi Kurumi-chan"
+  },
+  {
+    badgeTop: "Ep-14",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Isekai", "Knight", "Game System"],
+    bio: "Ksatria berat buangan yang memanfaatkan pengetahuan sistem game untuk mendobrak batasan dunia.",
+    imdbUrl: "https://www.imdb.com/title/tt33334216/",
+    image: "images/The Exiled Heavy Knight Knows How to Game the System.jpg",
+    malUrl: "https://myanimelist.net/anime/59741/Tsuihou_sareta_Tensei_Juukishi_wa_Game_Chishinki_de_Musou_suru",
+    title: "Tsuihou sareta Tensei Juukishi wa Game Chishinki de Musou suru"
+  },
+  {
+    badgeTop: "S2. EP-01",
+    hasStar: true,
+    completed: true,
+    category: "Anime",
+    tags: ["Romance", "School", "Drama"],
+    bio: "Kisah dinding es emosional antar karakter muda yang perlahan mencair melalui jalinan kasih sayang.",
+    imdbUrl: "https://www.imdb.com/title/tt39123061/",
+    image: "images/Koori no Jouheki.jpg",
+    malUrl: "https://myanimelist.net/anime/60852/Koori_no_Jouheki",
+    title: "Koori no Jouheki"
+  },
+  {
     badgeTop: "S3. Ep-01",
     hasStar: true,
     completed: false,
@@ -22,6 +58,18 @@ const animeData = [
     image: "images/Tensei Kizoku Kantei Skill de Nariagaru.jpg",
     malUrl: "https://myanimelist.net/anime/55265/Tensei_Kizoku_Kantei_Skill_de_Nariagaru",
     title: "Tensei Kizoku, Kantei Skill de Nariagaru"
+  },
+  {
+    badgeTop: "S2. Ep-01",
+    hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Isekai", "Fantasy", "Action", "Adventure"],
+    bio: "Kisah pedang sakti yang bereinkarnasi bersama gadis budak bernama Fran untuk bertualang dan mencapai tingkat tertinggi.",
+    imdbUrl: "https://www.imdb.com/title/tt15483602/",
+    image: "images/Tensei shitara Ken deshita.jpg",
+    malUrl: "https://myanimelist.net/anime/49891/Tensei_Shitara_Ken_Deshita",
+    title: "Tensei shitara Ken deshita"
   },
   {
     badgeTop: "Ep-01",
@@ -46,18 +94,6 @@ const animeData = [
     image: "images/Yasei no Last Boss ga Arawareta.jpg",
     malUrl: "https://myanimelist.net/anime/59644/Yasei_no_Last_Boss_ga_Arawareta",
     title: "Yasei no Last Boss ga Arawareta!"
-  },
-  {
-    badgeTop: "Ep-13",
-    hasStar: true,
-    completed: false,
-    category: "Anime",
-    tags: ["Isekai", "Knight", "Game System"],
-    bio: "Ksatria berat buangan yang memanfaatkan pengetahuan sistem game untuk mendobrak batasan dunia.",
-    imdbUrl: "https://www.imdb.com/title/tt33334216/",
-    image: "images/The Exiled Heavy Knight Knows How to Game the System.jpg",
-    malUrl: "https://myanimelist.net/anime/59741/Tsuihou_sareta_Tensei_Juukishi_wa_Game_Chishinki_de_Musou_suru",
-    title: "Tsuihou sareta Tensei Juukishi wa Game Chishinki de Musou suru"
   },
   {
     badgeTop: "S2. Ep-12",
@@ -370,18 +406,6 @@ const animeData = [
     image: "images/My Ribdiculous Reincarnation.jpg",
     malUrl: "https://myanimelist.net/anime/63376/Megami_Isekai_Tensei_Nani_ni_Naritai_desu_ka_Ore_Yuusha_no_Rokkotsu_de",
     title: "Megami \"Isekai Tensei Nani ni Naritai desu ka\" Ore \"Yuusha no Rokkotsu de\""
-  },
-  {
-    badgeTop: "S1. End",
-    hasStar: true,
-    completed: true,
-    category: "Anime",
-    tags: ["Romance", "School", "Drama"],
-    bio: "Kisah dinding es emosional antar karakter muda yang perlahan mencair melalui jalinan kasih sayang.",
-    imdbUrl: "https://www.imdb.com/title/tt39123061/",
-    image: "images/Koori no Jouheki.jpg",
-    malUrl: "https://myanimelist.net/anime/60852/Koori_no_Jouheki",
-    title: "Koori no Jouheki"
   },
   {
     badgeTop: "S1. End",
