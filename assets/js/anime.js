@@ -38,7 +38,7 @@ const animeData = [
   {
     badgeTop: "S2. EP-01",
     hasStar: true,
-    completed: true,
+    completed: false,
     category: "Anime",
     tags: ["Romance", "School", "Drama"],
     bio: "Kisah dinding es emosional antar karakter muda yang perlahan mencair melalui jalinan kasih sayang.",
