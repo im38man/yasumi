@@ -12,6 +12,18 @@ const animeData = [
     title: "One Piece"
   },
   {
+    badgeTop: "S4. Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Drama", "Supernatural", "Time Travel"],
+    bio: "Takemichi Hanagaki melakukan perjalanan waktu ke masa lalu untuk menyelamatkan kekasih masa SMP-nya dari geng Tokyo Manji.",
+    imdbUrl: "https://www.imdb.com/title/tt13196080/",
+    image: "images/tokyo revengers.jpg",
+    malUrl: "https://myanimelist.net/anime/42249/Tokyo_Revengers",
+    title: "Tokyo Revengers"
+  },
+  {
     badgeTop: "Ep-01",
     hasStar: true,
     completed: false,
