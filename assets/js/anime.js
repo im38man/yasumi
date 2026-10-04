@@ -1150,7 +1150,7 @@ const animeData = [
     Tag: "Perjalanan seorang ninja muda dari Desa Konoha yang bertekad menggapai impian menjadi Hokage demi mendapatkan pengakuan.",
     imdbUrl: "https://www.imdb.com/title/tt0409591/",
     image: "images/Naruto.jpg",
-    malUrl: "https://myanimelist.net/anime/20/Naruto",
+    malUrl: "https://myanimelist.net/anime/20/Naruto/",
     title: "Naruto"
   }
 ];
