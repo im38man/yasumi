@@ -12,6 +12,18 @@ const animeData = [
     title: "One Piece"
   },
   {
+    badgeTop: "Ep-171",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Fantasy", "Shounen", "Magic"],
+    bio: "Di dunia di mana sihir adalah segalanya, Asta lahir tanpa kekuatan sihir sedikit pun. Namun, berkat tekad yang kuat dan pedang anti-sihir misterius yang didapatnya, ia berjuang bersama rivalnya, Yuno, untuk menggapai impian tertinggi menjadi seorang Raja Penyihir.",
+    imdbUrl: "https://www.imdb.com/title/tt7441658/",
+    image: "images/Black Clover.jpg",
+    malUrl: "https://myanimelist.net/anime/61967/Black_Clover_2nd_Season",
+    title: "Black Clover"
+  },
+  {
     badgeTop: "S4. Ep-01",
     hasStar: true,
     completed: false,
@@ -106,6 +118,42 @@ const animeData = [
     image: "images/Yasei no Last Boss ga Arawareta.jpg",
     malUrl: "https://myanimelist.net/anime/59644/Yasei_no_Last_Boss_ga_Arawareta",
     title: "Yasei no Last Boss ga Arawareta!"
+  },
+  {
+    badgeTop: "S2. Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Sports", "Soccer", "Drama"],
+    bio: "Ashito Aoi adalah seorang anak laki-laki dari daerah pedesaan yang memiliki bakat sepak bola mentah namun tersembunyi. Setelah kekalahan di turnamen SMP yang memupus harapannya, ia menarik perhatian Tatsuya Fukuda, seorang pelatih tim muda klub J-League Tokyo Esperion, yang melihat potensi besar dalam diri Ashito dan mengajaknya untuk merantau ke Tokyo demi mengubah takdir hidupnya melalui sepak bola.",
+    imdbUrl: "https://www.imdb.com/title/tt15792808/",
+    image: "images/Ao Ashi.jpg",
+    malUrl: "https://myanimelist.net/anime/61603/Ao_Ashi_Season_2",
+    title: "Aoashi"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Fantasy", "Action", "Magic", "Adventure"],
+    bio: "Kisah tentang seseorang yang menggunakan kekuatan sihir berbasis sistem utang dan pembayaran cicilan (Revo Barai) untuk membalikkan keadaan dalam pertempuran melawan musuh-musuh yang kuat.",
+    imdbUrl: "https://www.imdb.com/title/tt43650419/",
+    image: "images/Kashita Maryoku wa Revo Barai de Kyousei Choushuu.jpg",
+    malUrl: "https://myanimelist.net/anime/62922/Kashita_Maryoku_wa_Revo_Barai_de_Kyousei_Choushuu",
+    title: "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Sci-Fi", "Mecha"],
+    bio: "Sebuah unit pasukan khusus elit yang mengoperasikan teknologi tempur canggih untuk menghadapi ancaman misterius yang mengincar keselamatan umat manusia.",
+    imdbUrl: "https://www.imdb.com/title/tt42487863/",
+    image: "images/Vertex Force.jpg",
+    malUrl: "https://myanimelist.net/anime/63764/Vertex_Force",
+    title: "Vertex Force"
   },
   {
     badgeTop: "Ep-01",
