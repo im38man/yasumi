@@ -108,16 +108,52 @@ const animeData = [
     title: "Yasei no Last Boss ga Arawareta!"
   },
   {
-    badgeTop: "S2.End",
+    badgeTop: "Ep-01",
     hasStar: true,
-    completed: true,
+    completed: false,
     category: "Anime",
-    tags: ["Romance", "Polar Opposites", "Youth"],
-    bio: "Dinamika hubungan asmara yang manis antara dua siswa sekolah dengan kepribadian yang sangat bertolak belakang.",
-    imdbUrl: "https://www.imdb.com/title/tt36034547/",
-    image: "images/You and I Are Polar Opposites.jpg",
-    malUrl: "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
-    title: "Seihantai na Kimi to Boku"
+    tags: ["Fantasy", "Action", "Drama", "Military"],
+    bio: "Diadaptasi dari game legendaris Konami, cerita berfokus pada dua sahabat karib, Riliu dan Jowy, yang harus terombang-ambing dalam pusaran takdir dan perang besar akibat konflik antara Kerajaan Highland dan Negara-Kota Jowston, di bawah langit malam yang diterangi oleh takdir 108 Bintang Takdir.",
+    imdbUrl: "https://www.imdb.com/title/tt42938834/",
+    image: "images/Gensou Suikoden.jpg",
+    malUrl: "https://myanimelist.net/anime/61140/Gensou_Suikoden",
+    title: "Suikoden: The Anime"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Comedy", "Post-Apocalyptic", "Survival", "Adventure"],
+    bio: "Tiga belas tahun setelah wabah misterius memusnahkan sebagian besar umat manusia dan mengubah mereka menjadi zombie, Aki—seorang gadis dari generasi baru yang tidak tahu apa-apa tentang dunia lama—memulai petualangan luar biasa bersama teman-temannya di luar desa demi mencari sang ayah yang hilang.",
+    imdbUrl: "https://www.imdb.com/title/tt43691424/",
+    image: "images/Zombie Sagashitemasu.jpg",
+    malUrl: "https://myanimelist.net/anime/62524/Zombie_Sagashitemasu",
+    title: "#Zombie Sagashitemasu"
+  },
+  {
+    badgeTop: "Ep-02",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Fantasy", "Romance", "Reincarnation"],
+    bio: "Bereinkarnasi kembali ke dunia lain dengan kekuatan suci yang luar biasa kuat, seorang gadis memutuskan untuk menyembunyikan identitas aslinya sebagai Saintess dan menjalani kehidupan yang tenang dan damai.",
+    imdbUrl: "https://www.imdb.com/title/tt38939893/",
+    image: "images/Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu.jpg",
+    malUrl: "https://myanimelist.net/anime/61153/Tensei_shita_Daiseijo_wa_Seijo_de_Aru_Koto_wo_Hitakakusu",
+    title: "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Fantasy", "Military", "Drama", "Action"],
+    bio: "Setelah berhasil membantu mengalahkan Raja Iblis, Romelia malah diputus secara sepihak oleh tunangannya sang pangeran dan dikirim pulang dengan hina. Sadar bahwa sisa-sisa pasukan iblis masih mengancam dunia, ia mulai membangun kekuatan militernya sendiri demi menyelamatkan kerajaan.",
+    imdbUrl: "https://www.imdb.com/title/tt42727894/",
+    image: "images/Romelia Senki.jpg",
+    malUrl: "https://myanimelist.net/anime/59787/Romelia_Senki",
+    title: "Romelia Senki"
   },
   {
     badgeTop: "Ep-02",
@@ -130,6 +166,18 @@ const animeData = [
     image: "images/Magical Explorer.jpg",
     malUrl: "https://myanimelist.net/anime/56733/Magical%E2%98%85Explorer",
     title: "Magical★Explorer"
+  },
+  {
+    badgeTop: "S2.End",
+    hasStar: true,
+    completed: true,
+    category: "Anime",
+    tags: ["Romance", "Polar Opposites", "Youth"],
+    bio: "Dinamika hubungan asmara yang manis antara dua siswa sekolah dengan kepribadian yang sangat bertolak belakang.",
+    imdbUrl: "https://www.imdb.com/title/tt36034547/",
+    image: "images/You and I Are Polar Opposites.jpg",
+    malUrl: "https://myanimelist.net/anime/63832/Seihantai_na_Kimi_to_Boku_2nd_Season",
+    title: "Seihantai na Kimi to Boku"
   },
   {
     badgeTop: "S1.End",
