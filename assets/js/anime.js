@@ -60,7 +60,7 @@ const animeData = [
     title: "Koori no Jouheki"
   },
   {
-    badgeTop: "S3. Ep-01",
+    badgeTop: "S3. Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -84,7 +84,7 @@ const animeData = [
     title: "Tensei shitara Ken deshita"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -96,7 +96,7 @@ const animeData = [
     title: "Tempal: Item no Chikara"
   },
   {
-    badgeTop: "S2. Ep-01",
+    badgeTop: "S2. Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -108,9 +108,9 @@ const animeData = [
     title: "Yasei no Last Boss ga Arawareta!"
   },
   {
-    badgeTop: "S2. Ep-12",
+    badgeTop: "S2.End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Romance", "Polar Opposites", "Youth"],
     bio: "Dinamika hubungan asmara yang manis antara dua siswa sekolah dengan kepribadian yang sangat bertolak belakang.",
@@ -120,7 +120,7 @@ const animeData = [
     title: "Seihantai na Kimi to Boku"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: false,
     completed: false,
     category: "Anime",
