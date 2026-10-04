@@ -120,6 +120,66 @@ const animeData = [
     title: "Yasei no Last Boss ga Arawareta!"
   },
   {
+    badgeTop: "Ep-358",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Comedy", "Sci-Fi", "Parody", "Alien"],
+    bio: "Sersan Keroro, alien mirip katak hijau yang merupakan pemimpin Pasukan Invasi Planet Pekopon (Bumi) dari Planet Keron, gagal total dalam misi penaklukannya setelah tertangkap basah oleh dua anak manusia, Fuyuki dan Natsumi Hinata. Alih-alih menjajah, ia malah dijadikan budak rumah tangga bersih-bersih dan sibuk merakit model kit Gunpla di kamar.",
+    imdbUrl: "https://www.imdb.com/title/tt45373165/",
+    image: "images/Keroro Gunsou.jpg",
+    malUrl: "https://myanimelist.net/anime/63157/Keroro_Gunsou%E2%98%86",
+    title: "Keroro Gunsou"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Fantasy", "Romance", "Adventure", "Isekai"],
+    bio: "Noriko Tachikawa, seorang gadis SMA biasa, tiba-tiba tersedot ke dunia fantasi asing yang penuh dengan monster dan bahaya. Ia diselamatkan oleh Izark, seorang pemuda buronan berwajah menakutkan namun berhati lembut yang ditakdirkan untuk membawa kehancuran dunia, memulai perjalanan epik penuh cinta dan petualangan bersama.",
+    imdbUrl: "https://www.imdb.com/title/tt43691315",
+    image: "images/Kanata Kara.jpg",
+    malUrl: "https://myanimelist.net/anime/63753/Kanata_kara",
+    title: "Kanata Kara"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Sci-Fi", "Drama"],
+    bio: "Nagi, seorang mantan tentara bayaran terkuat yang kehilangan kedua kaki dan tangan kanannya akibat kecelakaan tragis, harus menjalani kehidupan sehari-hari menggunakan kursi roda khusus berteknologi tinggi berbentuk tank. Bersama adik perempuannya, ia bertarung menembus dunia bawah tanah demi membalas dendam.",
+    imdbUrl: "https://www.imdb.com/title/tt43691394/",
+    image: "images/Tank Chair.jpg",
+    malUrl: "https://myanimelist.net/anime/63751/Tank_Chair",
+    title: "Tank Chair"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Fantasy", "Romance", "Comedy"],
+    bio: "Meskipun memiliki kepribadian yang sangat penakut, seorang putri bangsawan tanpa sengaja terjebak dalam taruhan besar dengan tunangannya yang merupakan seorang politikus dan bangsawan jenius yang cerdik dan ambisius.",
+    imdbUrl: "https://www.imdb.com/title/tt43691418/",
+    image: "images/Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta.jpg",
+    malUrl: "https://myanimelist.net/anime/62753/Yowaki_Max_Reijou_nanoni_Ratsuwan_Konyakusha-sama_no_Kake_ni_Notte_Shimatta",
+    title: "Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Sci-Fi", "Action", "Adventure", "Harem"],
+    bio: "Seorang pria yang bereinkarnasi ke dalam dunia video game sci-fi bersama perlengkapan terkuat dan sebuah pesawat ruang angkasa canggih, memilih untuk menjalani hidup bebas sebagai seorang tentara bayaran demi mewujudkan impiannya memiliki rumah sendiri di luar angkasa.",
+    imdbUrl: "https://www.imdb.com/title/tt41298100/",
+    image: "images/Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai.jpg",
+    malUrl: "https://myanimelist.net/anime/60948/Mezametara_Saikyou_Soubi_to_Uchuusenmochi_Datta_node_Ikkodate_Mezashite_Youhei_toshite_Jiyuu_ni_Ikitai/",
+    title: "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai"
+  },
+  {
     badgeTop: "S2. Ep-01",
     hasStar: true,
     completed: false,
@@ -129,7 +189,7 @@ const animeData = [
     imdbUrl: "https://www.imdb.com/title/tt15792808/",
     image: "images/Ao Ashi.jpg",
     malUrl: "https://myanimelist.net/anime/61603/Ao_Ashi_Season_2",
-    title: "Aoashi"
+    title: "Ao Ashi"
   },
   {
     badgeTop: "Ep-01",
