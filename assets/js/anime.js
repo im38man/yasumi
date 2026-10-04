@@ -1118,7 +1118,7 @@ const animeData = [
   },
   {
   badgeTop: "S1.End",
-  hasStar: false,
+  hasStar: true,
   completed: true,
   category: "Anime",
   tags: ["Romance", "Comedy", "School"],
@@ -1139,5 +1139,18 @@ const animeData = [
     image: "images/Oshi ga Budoukan Ittekuretara Shinu.jpg",
     malUrl: "https://myanimelist.net/anime/37890/Oshi_ga_Budoukan_Ittekuretara_Shinu",
     title: "Oshi ga Budoukan Ittekuretara Shinu"
+  },
+  {
+    badgeTop: "Ep-500",
+    hasStar: true,
+    completed: true,
+    end: true,
+    category: "Anime",
+    tags: ["Action", "Ninja", "Adventure"],
+    Tag: "Perjalanan seorang ninja muda dari Desa Konoha yang bertekad menggapai impian menjadi Hokage demi mendapatkan pengakuan.",
+    imdbUrl: "https://www.imdb.com/title/tt0409591/",
+    image: "images/Naruto.jpg",
+    malUrl: "https://myanimelist.net/anime/20/Naruto",
+    title: "Naruto"
   }
 ];
