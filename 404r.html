@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 - Mansekai Animation</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        min-height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #343434;
+        background: #f6f7f8;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Top notice */
+    .topbar {
+        height: 20px;
+        background: #d9826b;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        letter-spacing: .1px;
+    }
+
+    /* Navigation */
+    .navbar {
+        height: 54px;
+        background: #fff;
+        border-bottom: 1px solid #e8e8e8;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 42px;
+    }
+
+    .brand {
+        font-size: 12px;
+        line-height: 1.15;
+        font-weight: 700;
+        color: #343434;
+        text-decoration: none;
+        width: 80px;
+    }
+
+    .navlinks {
+        display: flex;
+        align-items: center;
+        gap: 34px;
+        margin-left: 55px;
+    }
+
+    .navlinks a {
+        color: #3f3f3f;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .navicons {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 16px;
+        color: #3f3f3f;
+    }
+
+    .navicons span {
+        cursor: default;
+    }
+
+    /* Main */
+    main {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 70px 24px;
+        background: #f7f8f9;
+    }
+
+    .error-card {
+        width: min(760px, 100%);
+        text-align: center;
+        padding: 55px 30px 60px;
+    }
+
+    .error-number {
+        font-size: clamp(100px, 19vw, 190px);
+        line-height: .82;
+        font-weight: 800;
+        letter-spacing: -9px;
+        color: #d9826b;
+        text-shadow: 0 8px 0 rgba(217, 130, 107, .08);
+        margin-bottom: 25px;
+    }
+
+    .error-title {
+        font-size: clamp(25px, 4vw, 38px);
+        font-weight: 700;
+        color: #343434;
+        margin-bottom: 15px;
+    }
+
+    .error-text {
+        max-width: 530px;
+        margin: 0 auto 30px;
+        color: #777;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .refresh-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9px;
+        border: none;
+        border-radius: 24px;
+        padding: 13px 23px;
+        background: #171b1e;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: .2s ease;
+        box-shadow: 0 5px 14px rgba(0,0,0,.12);
+    }
+
+    .refresh-btn:hover {
+        background: #d9826b;
+        transform: translateY(-2px);
+        box-shadow: 0 7px 17px rgba(0,0,0,.15);
+    }
+
+    .refresh-btn:active {
+        transform: translateY(0);
+    }
+
+    .refresh-icon {
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .mini-decoration {
+        width: 60px;
+        height: 3px;
+        border-radius: 10px;
+        background: #d9826b;
+        margin: 0 auto 28px;
+    }
+
+    /* Footer */
+    footer {
+        background: #171b1e;
+        color: #fff;
+        padding: 42px 7% 28px;
+    }
+
+    .footer-grid {
+        max-width: 1180px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1.3fr .8fr 1.2fr;
+        gap: 60px;
+    }
+
+    .footer-title {
+        font-size: 17px;
+        margin-bottom: 13px;
+        font-weight: 700;
+    }
+
+    .footer-text,
+    .footer-links a,
+    .contact {
+        color: #aeb2b5;
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .footer-links a {
+        text-decoration: none;
+    }
+
+    .footer-links a:hover {
+        color: #fff;
+    }
+
+    .socials {
+        display: flex;
+        gap: 8px;
+        margin-top: 15px;
+    }
+
+    .social {
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        background: #292e32;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #d5d7d8;
+        font-size: 11px;
+    }
+
+    .copyright {
+        max-width: 1180px;
+        margin: 28px auto 0;
+        padding-top: 20px;
+        border-top: 1px solid #292e32;
+        color: #777d81;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .legal {
+        display: flex;
+        gap: 18px;
+    }
+
+    /* Mobile */
+    @media (max-width: 700px) {
+        .navbar {
+            padding: 0 18px;
+        }
+
+        .navlinks {
+            display: none;
+        }
+
+        .brand {
+            width: auto;
+        }
+
+        main {
+            padding: 45px 18px;
+        }
+
+        .error-card {
+            padding: 35px 10px 45px;
+        }
+
+        .error-number {
+            letter-spacing: -5px;
+        }
+
+        .error-text {
+            font-size: 13px;
+        }
+
+        .footer-grid {
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        .copyright {
+            flex-direction: column;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<main>
+    <section class="error-card">
+        <div class="error-number">404</div>
+
+        <div class="mini-decoration"></div>
+
+        <h1 class="error-title">Page Not Found</h1>
+
+        <p class="error-text">
+            Oops! Halaman yang kamu cari tidak ditemukan atau mungkin
+            sudah dipindahkan. Tenang, dunia anime masih menunggumu.
+			Coba nyalakan internet atau data terlebih dahulu oke. bye Mansekai Project
+        </p>
+
+        <button class="refresh-btn" onclick="location.reload()">
+            <span class="refresh-icon">↻</span>
+            Refresh Page
+        </button>
+    </section>
+</main>
+
+</body>
+</html>

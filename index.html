@@ -74,6 +74,29 @@
           .hero h1 {
               margin-bottom: 5px !important;
           }
+		  
+		  /* Judul card poster: maksimal 2 baris, sisanya jadi "..." */
+			.card-content span.text-bg-dark.fs-1 > a {
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 2;
+				line-clamp: 2;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				overflow-wrap: anywhere;
+			}
+
+          /* Responsive judul hero di HP */
+          @media (max-width: 600px) {
+              section.hero h1,
+              .hero h1 {
+                  width: 100% !important;
+                  font-size: clamp(1.25rem, 6.2vw, 1.75rem) !important;
+                  line-height: 1.3 !important;
+                  overflow-wrap: break-word;
+                  word-break: break-word;
+              }
+          }
 
           .total-movies {
               margin-top: 5px !important;
@@ -444,6 +467,47 @@
               }
               .subnav-categories .see-all-cat {
                   grid-column: span 3;
+              }
+          }
+
+          /* Dropdown Categories ditutup paksa setelah item dipilih */
+          .navigation-menu li.force-close .subnav-categories {
+              display: none !important;
+          }
+
+          /* Responsive HP: halaman hasil Categories (filter tag & See All Categories) */
+          @media (max-width: 768px) {
+              /* Judul "Menampilkan hasil untuk Tag ..." + tombol Clear */
+              #search-result-info {
+                  flex-direction: column;
+                  align-items: flex-start !important;
+                  gap: 12px !important;
+              }
+              #search-result-info h4 {
+                  font-size: 1.05rem;
+                  line-height: 1.4;
+                  overflow-wrap: anywhere;
+              }
+
+              /* Halaman "All Available Tags & Categories" */
+              #target-results-anchor.container > .d-flex {
+                  flex-wrap: wrap;
+                  gap: 12px;
+              }
+              #target-results-anchor.container > .d-flex h2 {
+                  font-size: 1.3rem;
+                  line-height: 1.3;
+                  margin-bottom: 0;
+                  flex: 1 1 100%;
+              }
+              #all-categories-grid .category-grid-item h5 {
+                  font-size: 1rem;
+                  overflow-wrap: anywhere;
+              }
+              #all-categories-grid .category-grid-item .badge {
+                  flex-shrink: 0;
+                  margin-left: 10px;
+                  white-space: nowrap;
               }
           }
 
@@ -948,12 +1012,28 @@
             $("#menu-categories").on("click", function(e) {
                 e.preventDefault();
                 e.stopPropagation();
-                $(this).parent("li").toggleClass("active-dropdown");
+                var $li = $(this).parent("li");
+                if ($li.find(".subnav-categories").is(":visible")) {
+                    // Sedang terbuka -> tutup (force-close juga menang atas :hover yang "nyangkut" di HP)
+                    $li.removeClass("active-dropdown").addClass("force-close");
+                } else {
+                    $li.removeClass("force-close").addClass("active-dropdown");
+                }
+            });
+
+            // Auto-close dropdown Categories setelah salah satu item / See All Categories ditekan
+            $(document).on("click", ".subnav-categories .category-filter-item, #see-all-categories-btn", function() {
+                $("#menu-categories").parent("li").removeClass("active-dropdown").addClass("force-close");
+            });
+
+            // Reset force-close saat kursor keluar dari menu, supaya hover desktop normal lagi
+            $("#menu-categories").parent("li").on("mouseleave", function() {
+                $(this).removeClass("force-close");
             });
 
             $(document).on("click", function(e) {
                 if (!$(e.target).closest(".navigation-menu li").length) {
-                    $(".navigation-menu li").removeClass("active-dropdown");
+                    $(".navigation-menu li").removeClass("active-dropdown force-close");
                 }
             });
 
