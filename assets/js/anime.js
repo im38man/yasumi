@@ -96,6 +96,42 @@ const animeData = [
     title: "Tensei shitara Ken deshita"
   },
   {
+    badgeTop: "Ep-01",
+    hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Fantasy", "Reincarnation", "Comedy"],
+    bio: "Seorang pejuang legendaris yang mampu membunuh dewa meninggal dalam penyesalan karena tidak pernah menemukan lawan yang benar-benar sebanding di ambang ajalnya. Ia kemudian berinkarnasi menjadi Nia Liston, seorang putri bangsawan yang cantik namun berbadan lemah, memulai kehidupan keduanya untuk kembali mengamuk dan bertarung sepuas hati.",
+    imdbUrl: "https://www.imdb.com/title/tt41296544/",
+    image: "images/kyouran_reijou_nia_liston.jpg",
+    malUrl: "https://myanimelist.net/anime/63382/Kyouran_Reijou_Nia_Liston__Byoujaku_Reijou_ni_Tensei_shita_Kamigoroshi_no_Bujin_no_Karei_Naru_Musouroku?",
+    title: "Kyouran Reijou Nia Liston: Byoujaku Reijou ni Tensei shita Kamigoroshi no Bujin no Karei Naru Musouroku"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Fantasy", "Survival", "Dark Fantasy"],
+    bio: "Sebuah game jejaring sosial populer bernama 'Magical Girl Raising Project' mampu mengubah satu dari puluhan ribu pemainnya menjadi gadis penyihir sungguhan. Namun, situasi berubah drastis ketika sebuah pengumuman mendadak memaksa enam belas gadis penyihir untuk saling bertarung dalam permainan bertahan hidup yang kejam.",
+    imdbUrl: "https://www.imdb.com/title/tt6135388/",
+    image: "images/mahou_shoujo_ikusei_keikaku.jpg",
+    malUrl: "https://myanimelist.net/anime/33003/Mahou_Shoujo_Ikusei_Keikaku",
+    title: "Mahou Shoujo Ikusei Keikaku"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Fantasy", "Magic", "Adventure", "Harem"],
+    bio: "Setelah dibuang dari kelompoknya, seorang penyihir sihir buff/enchantment memulai kehidupan barunya dengan kekuatan unik yang memungkinkannya memberikan 'Poin Penguatan' ke berbagai objek, senjata, dan hal lainnya—serta membatalkan efeknya sesuka hati.",
+    imdbUrl: "https://www.imdb.com/title/tt43691412/",
+    image: "images/tsuihou_fuyo_majutsushi.jpg",
+    malUrl: "https://myanimelist.net/anime/63431/Tsuihou_sareta_Cheat_Fuyo_Majutsushi_wa_Kimama_na_Second_Life_wo_Ouka_suru_Ore_wa_Buki_dake_ja_Naku_Arayuru_Mono_ni_Kyouka_Point_wo_Fuyo_Dekiru_shi_Ore_no_Ishi_de_Itsudemo_Kouka_wo_Kaijo_Dekiru_kedo_Nokotta_Hitotachi_Daijoubu?",
+    title: "Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru"
+  },
+  {
     badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
@@ -1247,6 +1283,18 @@ const animeData = [
     image: "images/kyouko suiri.jpg",
     malUrl: "https://myanimelist.net/anime/44204/Kyokou_Suiri_Season_2",
     title: "Kyokou Suiri"
+  },
+  {
+    badgeTop: "S1.End",
+    title: "Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.",
+    image: "images/Class no Daikirai na Joshi.jpg",
+    category: "Anime",
+    tags: ["Romance", "Comedy", "School"],
+    completed: true,
+    hasStar: true,
+    imdbUrl: "[https://www.imdb.com/title/tt32741637/](https://www.imdb.com/title/tt32741637/)", 
+    malUrl: "[https://myanimelist.net/anime/59135/Class_no_Daikirai_na_Joshi_to_Kekkon_suru_Koto_ni_Natta](https://myanimelist.net/anime/59135/Class_no_Daikirai_na_Joshi_to_Kekkon_suru_Koto_ni_Natta)", 
+    bio: "Bercerita tentang Saito Hojo dan Akane Sakurimori, dua teman sekelas yang saling membenci satu sama lain. Kehidupan mereka berubah drastis ketika mereka tiba-tiba harus menikah dan tinggal bersama karena perjodohan dari kakek mereka."
   },
   {
     badgeTop: "S1.End",
