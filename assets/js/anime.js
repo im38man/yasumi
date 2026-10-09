@@ -36,7 +36,7 @@ const animeData = [
     title: "Tokyo Revengers"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -48,7 +48,7 @@ const animeData = [
     title: "FX Senshi Kurumi-chan"
   },
   {
-    badgeTop: "Ep-14",
+    badgeTop: "Ep-15",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -60,7 +60,7 @@ const animeData = [
     title: "Tsuihou sareta Tensei Juukishi wa Game Chishinki de Musou suru"
   },
   {
-    badgeTop: "S2. EP-01",
+    badgeTop: "S2. EP-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -84,8 +84,8 @@ const animeData = [
     title: "Tensei Kizoku, Kantei Skill de Nariagaru"
   },
   {
-    badgeTop: "S2. Ep-01",
-    hasStar: false,
+    badgeTop: "S2. Ep-02",
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Isekai", "Fantasy", "Action", "Adventure"],
@@ -98,6 +98,54 @@ const animeData = [
   {
     badgeTop: "Ep-01",
     hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Adventure", "Comedy", "Fantasy", "Magic"],
+    bio: "Dibuang oleh keluarga bangsawannya karena dianggap memiliki skill yang tidak berguna dan lemah, Rona tiba-tiba mendengar suara misterius yang memberikannya akses ke 'situs panduan' (internet) dunia tersebut. Berbekal pengetahuan cheat level SSS ini, ia dapat memproduksi item langka dan melewati berbagai quest sulit dengan mudah, perlahan-lahan bertransformasi menjadi penyihir terkuat di dunia demi menikmati hidup dengan bebas.",
+    imdbUrl: "https://www.imdb.com/title/tt43691408/",
+    image: "images/sekai_saikyou_no_majo_hajimemashita.jpg",
+    malUrl: "https://myanimelist.net/anime/64084/Sekai_Saikyou_no_Majo_Hajimemashita",
+    title: "Sekai Saikyou no Majo, Hajimemashita"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Adventure", "Fantasy", "Comedy", "Isekai", "Reincarnation"],
+    bio: "Akira Yagami, seorang pekerja kantoran, tewas setelah menyelamatkan seorang anak dari kecelakaan truk. Ia kemudian terbangun dan berinkarnasi ke dunia lain—sebagai seekor goblin kecil. Meskipun goblin biasanya hanya memiliki rentang hidup selama tujuh hari, kekuatan baru yang ia miliki memungkinkan umurnya menjadi jauh lebih panjang, membawanya meniti jalan untuk menjadi goblin terkuat yang pernah ada!",
+    imdbUrl: "https://www.imdb.com/title/tt43691383/",
+    image: "images/tensei_goblin_dakedo_shitsumon_aru.jpg",
+    malUrl: "https://myanimelist.net/anime/63712/Tensei_Goblin_dakedo_Shitsumon_Aru",
+    title: "Tensei Goblin dakedo Shitsumon Aru?"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Adventure", "Sci-Fi", "Super Power", "Psychological", "Supernatural"],
+    bio: "Suatu hari, seorang siswa SMA bernama Ageha Yoshina menemukan kartu telepon merah misterius di sebuah bilik telepon umum. Ketika teman masa kecilnya menghilang tanpa jejak setelah memegang kartu yang sama, ia terseret ke dalam permainan bertahan hidup mematikan yang dijalankan oleh organisasi rahasia bernama Psyren.",
+    imdbUrl: "https://www.imdb.com/title/tt39181351/",
+    image: "images/psyren.jpg",
+    malUrl: "https://myanimelist.net/anime/63098/Psyren",
+    title: "Psyren"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: false,
+    completed: false,
+    category: "Anime",
+    tags: ["Fantasy", "Romance", "Comedy", "Josei"],
+    bio: "Rose, seorang penyihir yang tinggal di tepi danau, harus menghadapi kenyataan pahit ketika Harij—kesatria yang selama ini diam-diam ia cintai—meminta bantuannya untuk membuatkan ramuan cinta demi wanita lain. Meski patah hati, Rose tidak kuasa menolak dan memanfaatkan kesempatan ini untuk menghabiskan lebih banyak waktu bersama sang kesatria selama persiapan ramuan berlangsung.",
+    imdbUrl: "https://www.imdb.com/title/tt43650300/",
+    image: "images/doumo_suki_na_hito_ni_horegusuri_wo_irai_sareta_majo_desu.jpg",
+    malUrl: "https://myanimelist.net/anime/63409/Doumo_Suki_na_Hito_ni_Horegusuri_wo_Irai_sareta_Majo_desu",
+    title: "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu."
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Action", "Fantasy", "Reincarnation", "Comedy"],
@@ -121,7 +169,7 @@ const animeData = [
   },
   {
     badgeTop: "Ep-01",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Fantasy", "Magic", "Adventure", "Harem"],
@@ -301,7 +349,7 @@ const animeData = [
   },
   {
     badgeTop: "Ep-02",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Isekai", "Fantasy", "Comedy", "Harem"],
@@ -398,7 +446,7 @@ const animeData = [
   {
     badgeTop: "S1. End",
     hasStar: false,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["Building", "Lord", "Strategy"],
     bio: "Perjuangan membangun wilayah perbatasan dari nol tanpa populasi awal yang memadai.",
@@ -421,7 +469,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Action", "Adventure", "Legend"],
@@ -433,7 +481,7 @@ const animeData = [
   },
   {
     badgeTop: "S1.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Magic", "School", "Cheat"],
@@ -457,7 +505,7 @@ const animeData = [
   },
   {
     badgeTop: "S2.End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Mecha", "Isekai", "Otome Game"],
@@ -493,7 +541,7 @@ const animeData = [
   },
   {
     badgeTop: "S2. End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Skeleton", "Isekai", "Action"],
@@ -553,7 +601,7 @@ const animeData = [
   },
   {
     badgeTop: "Ep-01",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["School", "Comedy", "Romance"],
@@ -565,7 +613,7 @@ const animeData = [
   },
   {
     badgeTop: "S1. End",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Anime",
     tags: ["Rich Girl", "Care", "Romance"],
@@ -1358,3 +1406,9 @@ const animeData = [
     title: "Naruto"
   }
 ];
+;
+
+
+
+
+
