@@ -768,6 +768,30 @@
               background: #e9ecef; border: 1px solid #ced4da; border-radius: 50%;
               color: #212529; font-weight: bold; cursor: pointer;
           }
+      
+          /* Fix HP: hero halaman hasil Categories & See All Categories (tombol tidak keluar layar) */
+          @media (max-width: 768px) {
+              .hero.hero-category {
+                  padding-left: 20px !important;
+                  padding-right: 20px !important;
+              }
+              .hero.hero-category .btn-group {
+                  flex-wrap: wrap !important;
+                  gap: 10px !important;
+              }
+              .hero.hero-category .btn-animation {
+                  padding: 9px 16px !important;
+                  font-size: 0.9rem !important;
+              }
+          }
+      
+          /* Banner atas: teks rata tengah, hilang saat scroll turun & muncul lagi saat scroll naik */
+          header {
+              transition: top 0.3s ease;
+          }
+          header .banner {
+              text-align: center;
+          }
       </style>
   </head>
   <body>
@@ -862,15 +886,15 @@
     
     <!-- Konten Utama (SPA Wrapper) -->
     <div id="spa-content-area">
-        <section class="hero" id="hero-section">
+        <section class="hero hero-category" id="hero-section">
             <h1>“Today’s Animation Recommendations for You”</h1>
             <p class="total-movies text-dark fw-bold fs-5" style="margin-bottom: 4px;">Total Movies Tersedia: <span id="total-movies-count">0</span></p>
             <div class="btn-group">
                 <a href="javascript:void(0)" id="btn-anime" class="btn-animation btn-filled">
-                    Anime+<span id="count-anime">0</span><img src="assets/img/flag-japan.png" width="20px">
+                    Anime Pilihan +<span id="count-anime">0</span><img src="assets/img/flag-japan.png" width="20px">
                 </a>
                 <a href="javascript:void(0)" id="btn-anichin" class="btn-animation btn-outline">
-                    Anichin+<span id="count-anichin">0</span><img src="assets/img/flag-china.png" width="20px">
+                    Anichin +<span id="count-anichin">0</span><img src="assets/img/flag-china.png" width="20px">
                 </a>
             </div>
         </section>
@@ -1351,7 +1375,7 @@
                 });
 
                 $("#spa-content-area").html(`
-                    <section class="hero" id="hero-section">
+                    <section class="hero hero-category" id="hero-section">
                         <h1>“Today’s Animation Recommendations for You”</h1>
                         <p class="total-movies text-dark fw-bold fs-5" style="margin-bottom: 4px;">Total Movies Tersedia: <span id="total-movies-count">${allData.length}</span></p>
                         <div class="btn-group">
@@ -1415,7 +1439,7 @@
                 });
 
                 var categoriesHtml = `
-                    <section class="hero" id="hero-section">
+                    <section class="hero hero-category" id="hero-section">
                         <h1>“Today’s Animation Recommendations for You”</h1>
                         <p class="total-movies text-dark fw-bold fs-5" style="margin-bottom: 4px;">Total Movies Tersedia: <span id="total-movies-count">${allData.length}</span></p>
                         <div class="btn-group">
@@ -1553,5 +1577,24 @@
             }
         });
     </script>
-  </body>
+      <script>
+        // Banner atas: sembunyi saat scroll ke bawah, muncul saat scroll ke atas
+        (function () {
+            var header = document.querySelector('header');
+            var banner = header && header.querySelector('.banner');
+            if (!banner) return;
+            var lastY = window.pageYOffset || 0;
+            window.addEventListener('scroll', function () {
+                var y = Math.max(window.pageYOffset || document.documentElement.scrollTop || 0, 0);
+                var h = banner.offsetHeight;
+                if (y > lastY && y > h) {
+                    header.style.top = -h + 'px';
+                } else if (y < lastY) {
+                    header.style.top = '0px';
+                }
+                lastY = y;
+            }, { passive: true });
+        })();
+    </script>
+</body>
 </html>
