@@ -1,5 +1,60 @@
 var cartData = [
 	{
+		hasStar: false,
+		completed: false,
+		category: "Anime",
+		tags: ["Comedy", "School", "Slice of Life"],
+		bio: "Bergabung dengan dewan siswa biasanya diasosiasikan dengan wibawa, kecerdasan, dan keteladanan. Namun, di SMA Teiran, para anggota OSIS justru dipimpin oleh sekumpulan karakter eksentrik yang penuh dengan kebiasaan unik, tingkah konyol, serta berbagai celah kepribadian yang mengundang gelak tawa. Dari ketua yang kelihatannya sempurna hingga para wakil dan staf yang hobi membuat kekacauan kecil, hari-hari di ruang dewan siswa selalu diwarnai interaksi absurd namun menghibur.",
+		imdbUrl: "https://www.imdb.com/title/tt43650242/",
+		image: "images/Seitokai ni mo Ana wa Aru.jpg",
+		malUrl: "https://myanimelist.net/anime/61578/Seitokai_ni_mo_Ana_wa_Aru",
+		title: "Seitokai ni mo Ana wa Aru!"
+	},
+	{
+		hasStar: false,
+		completed: false,
+		category: "Anime",
+		tags: ["Romance", "Comedy", "School", "Slice of Life"],
+		bio: "Satou-san dikenal oleh seluruh sekolah sebagai gadis yang sangat dingin, ketus, dan acuh tak acuh kepada siapa pun. Namun, di hadapan Oshiro Takahito—teman sekelasnya yang bertugas merawat burung kecil di sekolah—Satou-san menunjukkan sisi yang sama sekali berbeda: ia sebenarnya sangat manis, mudah malu, dan menunjukkan rasa suka yang jelas kepadanya. Kisah cinta masa muda yang manis, menggemaskan, dan penuh salah tingkah pun dimulai dari interaksi rahasia di antara mereka berdua.",
+		imdbUrl: "https://www.imdb.com/title/tt43691365/",
+		image: "images/Shiotaiou no Satou-san ga Ore ni dake Amai.jpg",
+		malUrl: "https://myanimelist.net/anime/63754/Shiotaiou_no_Satou-san_ga_Ore_ni_dake_Amai",
+		title: "Shiotaiou no Satou-san ga Ore ni dake Amai"
+	},
+	{
+		hasStar: false,
+		completed: false,
+		category: "Anime",
+		tags: ["Romance", "Comedy", "Slice of Life", "Shoujo"],
+		bio: "Setelah ibunya menikah lagi, Iroha Tachibana mendadak harus tinggal satu atap dengan keempat saudara tirinya yang merupakan pemuda-pemuda tampan namun memiliki kepribadian yang sangat unik dan sulit ditebak. Berusaha beradaptasi dengan dinamika keluarga baru yang penuh warna, Iroha harus menghadapi berbagai situasi kocak, canggung, sekaligus menghangatkan hati seiring kedekatannya dengan saudara-saudara barunya.",
+		imdbUrl: "https://www.imdb.com/title/tt41293320/",
+		image: "images/Uchi no Ototo-domo ga Sumimasen.jpg",
+		malUrl: "https://myanimelist.net/anime/63061/Uchi_no_Otouto-domo_ga_Sumimasen",
+		title: "Uchi no Ototo-domo ga Sumimasen"
+	},
+	{
+		hasStar: false,
+		completed: false,
+		category: "Anime",
+		tags: ["Romance", "Historical", "Drama", "Suspense"],
+		bio: "Satoko Kirigaya adalah putri bangsawan di era Taisho yang divonis hanya memiliki sedikit waktu lagi untuk hidup akibat penyakit jantung yang dideritanya. Untuk menyelamatkan keluarganya dan memanfaatkan sisa hidupnya dengan caranya sendiri, ia melamar pembunuh bayaran berdarah dingin bernama Shinpei Gotou, yang datang untuk membunuhnya. Alih-alih menolak, Shinpei justru menerima lamaran tersebut dengan satu syarat: Satoko harus membantunya bertahan hidup, memulai kisah cinta yang berbahaya dan penuh ketegangan di antara maut.",
+		imdbUrl: "https://www.imdb.com/title/tt39394153/",
+		image: "images/Hotaru no Yomeiri.jpg",
+		malUrl: "https://myanimelist.net/anime/63293/Hotaru_no_Yomeiri/",
+		title: "Hotaru no Yomeiri"
+	},
+	{
+		hasStar: false,
+		completed: false,
+		category: "Anime",
+		tags: ["Mystery", "Drama", "Historical", "Medical"],
+		bio: "Maomao menjalani hari-hari damai sebagai seorang pelayan di distrik lampu merah bersama ayah angkatnya yang merupakan seorang tabib. Namun, hidupnya berubah drastis ketika ia diculik dan dijual ke istana kekaisaran sebagai pelayan rendahan. Ketika pewaris tahta jatuh sakit secara misterius, Maomao menggunakan pengetahuan medisnya untuk menyelidiki penyebabnya, yang tanpa sengaja menarik perhatian pejabat istana yang tampan, Jinshi, dan membawanya ke dalam berbagai intrik serta misteri di dalam istana.",
+		imdbUrl: "https://www.imdb.com/title/tt26743760/",
+		image: "images/Kusuriya no Hitorigoto.jpg",
+		malUrl: "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto",
+		title: "Kusuriya no Hitorigoto"
+	},
+	{
         title: "Hyouken no Majutsushi ga Sekai wo Suberu II",
         image: "images/Hyouken no Majutsushi ga Sekai wo Suberu II.webp",
         category: "Anime",

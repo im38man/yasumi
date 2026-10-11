@@ -12,7 +12,7 @@ const animeData = [
     title: "One Piece"
   },
   {
-    badgeTop: "Ep-171",
+    badgeTop: "Ep-172",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -24,7 +24,7 @@ const animeData = [
     title: "Black Clover"
   },
   {
-    badgeTop: "S4. Ep-01",
+    badgeTop: "S4. Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -94,6 +94,30 @@ const animeData = [
     image: "images/Tensei shitara Ken deshita.jpg",
     malUrl: "https://myanimelist.net/anime/49891/Tensei_Shitara_Ken_Deshita",
     title: "Tensei shitara Ken deshita"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Sci-Fi", "Super Power", "Seinen"],
+    bio: "Di balik permukaan Kota Akademi yang damai dan dikenal sebagai pusat pengembangan kekuatan esper, tersembunyi sisi gelap yang penuh darah dan rahasia kelam. 'ITEM' adalah kelompok elit beranggotakan empat gadis dengan kemampuan mematikan—Shizuri Mugino, Frenda Seivelun, Saiai Kinuhata, dan Rikou Takitsubo—yang menjalankan berbagai misi rahasia kelas atas. Ketika seorang gadis kelima memasuki lingkaran mereka, kelompok ini harus semakin dalam menyelami intrik brutal, kekerasan, serta korupsi moral yang mengancam eksistensi mereka di dunia bawah tanah.",
+    imdbUrl: "https://www.imdb.com/title/tt41295083/",
+    image: "images/Toaru Anbu no Item.jpg",
+    malUrl: "https://myanimelist.net/anime/61014/Toaru_Anbu_no_Item",
+    title: "Toaru Anbu no Item"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
+    tags: ["Action", "Fantasy", "Dark Fantasy", "Supernatural", "Shounen"],
+    bio: "Setelah pertempuran sengit di Kyoto dan Nerima, para siswa Akademi Rasetsu semakin bertambah kuat. Namun, Ikari Yaoroshi memilih meninggalkan akademi untuk bergabung dengan Pasukan Oni demi misi pembasmian total terhadap Momotaro. Menyadari bahwa mereka juga mengincar warga sipil, Shiki Ichinose bergegas mengejar Yaoroshi, yang membawa mereka ke fasilitas eksperimen misterius di Air Terjun Kegon, Nikko.",
+    imdbUrl: "https://www.imdb.com/title/tt32344704/",
+    image: "images/Tougen Anki Nikko Kegon no Taki-hen.jpg",
+    malUrl: "https://myanimelist.net/anime/63181/Tougen_Anki__Nikko_Kegon_no_Taki-hen",
+    title: "Tougen Anki: Nikko Kegon no Taki-hen"
   },
   {
     badgeTop: "Ep-01",
@@ -192,7 +216,7 @@ const animeData = [
     title: "Tempal: Item no Chikara"
   },
   {
-    badgeTop: "S2. Ep-02",
+    badgeTop: "S2. Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -204,7 +228,7 @@ const animeData = [
     title: "Yasei no Last Boss ga Arawareta!"
   },
   {
-    badgeTop: "Ep-358",
+    badgeTop: "Ep-359",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -276,7 +300,7 @@ const animeData = [
     title: "Ao Ashi"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -288,7 +312,7 @@ const animeData = [
     title: "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -312,7 +336,7 @@ const animeData = [
     title: "Suikoden: The Anime"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -324,7 +348,7 @@ const animeData = [
     title: "#Zombie Sagashitemasu"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -336,7 +360,7 @@ const animeData = [
     title: "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -348,7 +372,7 @@ const animeData = [
     title: "Romelia Senki"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
