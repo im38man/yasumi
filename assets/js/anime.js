@@ -100,6 +100,18 @@ const animeData = [
     hasStar: true,
     completed: false,
     category: "Anime",
+    tags: ["Action", "Adventure", "Fantasy", "Isekai"],
+    bio: "Makoto Takatsuki dan teman-teman sekelasnya dipanggil ke dunia fantasi oleh sang dewi untuk menyelamatkan dunia dari ancaman raja iblis. Sementara teman-temannya diberkahi dengan kemampuan curang yang kuat, Makoto hanya mendapatkan sihir dasar air yang lemah dan gelar 'Orang Tanpa Pengikut/Kepercayaan' dari dewi lokal bernama Noah. Ditinggal sendirian di labirin berbahaya, Makoto harus memanfaatkan kecerdikan, keterampilan bertahan hidup, serta kekuatan dewi minornya untuk bangkit menjadi yang terkuat.",
+    imdbUrl: "https://www.imdb.com/title/tt43650265/",
+    image: "images/Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku.jpg",
+    malUrl: "https://myanimelist.net/anime/63292/Shinja_Zero_no_Megami-sama_to_Hajimeru_Isekai_Kouryaku",
+    title: "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku"
+  },
+  {
+    badgeTop: "Ep-01",
+    hasStar: true,
+    completed: false,
+    category: "Anime",
     tags: ["Action", "Sci-Fi", "Super Power", "Seinen"],
     bio: "Di balik permukaan Kota Akademi yang damai dan dikenal sebagai pusat pengembangan kekuatan esper, tersembunyi sisi gelap yang penuh darah dan rahasia kelam. 'ITEM' adalah kelompok elit beranggotakan empat gadis dengan kemampuan mematikan—Shizuri Mugino, Frenda Seivelun, Saiai Kinuhata, dan Rikou Takitsubo—yang menjalankan berbagai misi rahasia kelas atas. Ketika seorang gadis kelima memasuki lingkaran mereka, kelompok ini harus semakin dalam menyelami intrik brutal, kekerasan, serta korupsi moral yang mengancam eksistensi mereka di dunia bawah tanah.",
     imdbUrl: "https://www.imdb.com/title/tt41295083/",
@@ -108,7 +120,7 @@ const animeData = [
     title: "Toaru Anbu no Item"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -132,8 +144,8 @@ const animeData = [
     title: "Sekai Saikyou no Majo, Hajimemashita"
   },
   {
-    badgeTop: "Ep-01",
-    hasStar: false,
+    badgeTop: "Ep-02",
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Action", "Adventure", "Fantasy", "Comedy", "Isekai", "Reincarnation"],
@@ -157,7 +169,7 @@ const animeData = [
   },
   {
     badgeTop: "Ep-01",
-    hasStar: false,
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Fantasy", "Romance", "Comedy", "Josei"],
@@ -204,7 +216,7 @@ const animeData = [
     title: "Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -276,7 +288,7 @@ const animeData = [
     title: "Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -288,7 +300,7 @@ const animeData = [
     title: "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai"
   },
   {
-    badgeTop: "S2. Ep-01",
+    badgeTop: "S2. Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -624,9 +636,9 @@ const animeData = [
     title: "Tenkou-saki no Seiso Karen na Bishoujo ga, Mukashi Danshi to Omotte Issho ni Asonda Osananajimi Datta Ken"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "S1. End",
     hasStar: true,
-    completed: false,
+    completed: true,
     category: "Anime",
     tags: ["School", "Comedy", "Romance"],
     bio: "Kisah komedi romantis seputar rekomendasi unik dari Iwamoto-senpai di lingkungan sekolah.",
