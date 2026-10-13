@@ -72,7 +72,7 @@ const animeData = [
     title: "Koori no Jouheki"
   },
   {
-    badgeTop: "S3. Ep-02",
+    badgeTop: "S3. Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -144,7 +144,7 @@ const animeData = [
     title: "Sekai Saikyou no Majo, Hajimemashita"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -156,7 +156,7 @@ const animeData = [
     title: "Tensei Goblin dakedo Shitsumon Aru?"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -168,7 +168,7 @@ const animeData = [
     title: "Psyren"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -180,7 +180,7 @@ const animeData = [
     title: "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu."
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -204,7 +204,7 @@ const animeData = [
     title: "Mahou Shoujo Ikusei Keikaku"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -276,7 +276,7 @@ const animeData = [
     title: "Tank Chair"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",
