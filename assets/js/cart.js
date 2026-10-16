@@ -3,6 +3,17 @@ var cartData = [
 		hasStar: false,
 		completed: false,
 		category: "Anime",
+		tags: ["Action", "Fantasy", "Mystery"],
+		bio: "Kisah menegangkan yang berpusat di sekitar misteri topeng merah tua (Shuiro no Kamen) dan intrik dunia fantasi yang penuh dengan rahasia kelam serta pertempuran tak terduga.",
+		imdbUrl: "none",
+		image: "images/shuiro_no_kamen.jpg",
+		malUrl: "https://myanimelist.net/anime/61999/Shuiro_no_Kamen",
+		title: "Shuiro no Kamen"
+	},
+	{
+		hasStar: false,
+		completed: false,
+		category: "Anime",
 		tags: ["Comedy", "School", "Slice of Life"],
 		bio: "Bergabung dengan dewan siswa biasanya diasosiasikan dengan wibawa, kecerdasan, dan keteladanan. Namun, di SMA Teiran, para anggota OSIS justru dipimpin oleh sekumpulan karakter eksentrik yang penuh dengan kebiasaan unik, tingkah konyol, serta berbagai celah kepribadian yang mengundang gelak tawa. Dari ketua yang kelihatannya sempurna hingga para wakil dan staf yang hobi membuat kekacauan kecil, hari-hari di ruang dewan siswa selalu diwarnai interaksi absurd namun menghibur.",
 		imdbUrl: "https://www.imdb.com/title/tt43650242/",

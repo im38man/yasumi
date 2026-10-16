@@ -36,7 +36,7 @@ const animeData = [
     title: "Tokyo Revengers"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -48,7 +48,7 @@ const animeData = [
     title: "FX Senshi Kurumi-chan"
   },
   {
-    badgeTop: "Ep-15",
+    badgeTop: "Ep-16",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -60,7 +60,7 @@ const animeData = [
     title: "Tsuihou sareta Tensei Juukishi wa Game Chishinki de Musou suru"
   },
   {
-    badgeTop: "S2. EP-02",
+    badgeTop: "S2. EP-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -84,7 +84,7 @@ const animeData = [
     title: "Tensei Kizoku, Kantei Skill de Nariagaru"
   },
   {
-    badgeTop: "S2. Ep-02",
+    badgeTop: "S2. Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -132,8 +132,8 @@ const animeData = [
     title: "Tougen Anki: Nikko Kegon no Taki-hen"
   },
   {
-    badgeTop: "Ep-01",
-    hasStar: false,
+    badgeTop: "Ep-02",
+    hasStar: true,
     completed: false,
     category: "Anime",
     tags: ["Action", "Adventure", "Comedy", "Fantasy", "Magic"],
@@ -336,7 +336,7 @@ const animeData = [
     title: "Vertex Force"
   },
   {
-    badgeTop: "Ep-01",
+    badgeTop: "Ep-02",
     hasStar: true,
     completed: false,
     category: "Anime",

@@ -12,7 +12,7 @@ const anichinData = [
     title: "Jade Dynasty" 
   },
   { 
-    badgeTop: "S4.Ep-245", 
+    badgeTop: "S4.Ep-246", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -24,7 +24,7 @@ const anichinData = [
     title: "Swallowed Star" 
   },
   { 
-    badgeTop: "Ep-162", 
+    badgeTop: "Ep-163", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -36,7 +36,7 @@ const anichinData = [
     title: "Renegade Immortal" 
   },
   { 
-    badgeTop: "S5.Ep-214", 
+    badgeTop: "S5.Ep-215", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -48,7 +48,7 @@ const anichinData = [
     title: "Battle Through the Heavens" 
   },
   { 
-    badgeTop: "Ep-174", 
+    badgeTop: "Ep-175", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
