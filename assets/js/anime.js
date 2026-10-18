@@ -12,7 +12,7 @@ const animeData = [
     title: "One Piece"
   },
   {
-    badgeTop: "Ep-172",
+    badgeTop: "Ep-173",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -228,7 +228,7 @@ const animeData = [
     title: "Tempal: Item no Chikara"
   },
   {
-    badgeTop: "S2. Ep-03",
+    badgeTop: "S2. Ep-04",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -312,7 +312,7 @@ const animeData = [
     title: "Ao Ashi"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -324,7 +324,7 @@ const animeData = [
     title: "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -348,7 +348,7 @@ const animeData = [
     title: "Suikoden: The Anime"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -360,7 +360,7 @@ const animeData = [
     title: "#Zombie Sagashitemasu"
   },
   {
-    badgeTop: "Ep-03",
+    badgeTop: "Ep-04",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -372,7 +372,7 @@ const animeData = [
     title: "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -384,7 +384,7 @@ const animeData = [
     title: "Romelia Senki"
   },
   {
-    badgeTop: "Ep-03",
+    badgeTop: "Ep-04",
     hasStar: true,
     completed: false,
     category: "Anime",
