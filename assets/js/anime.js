@@ -84,7 +84,7 @@ const animeData = [
     title: "Tensei Kizoku, Kantei Skill de Nariagaru"
   },
   {
-    badgeTop: "S2. Ep-03",
+    badgeTop: "S2. Ep-04",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -132,7 +132,7 @@ const animeData = [
     title: "Tougen Anki: Nikko Kegon no Taki-hen"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -180,7 +180,7 @@ const animeData = [
     title: "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu."
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -204,7 +204,7 @@ const animeData = [
     title: "Mahou Shoujo Ikusei Keikaku"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -336,7 +336,19 @@ const animeData = [
     title: "Vertex Force"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "S3.End",
+    title: "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
+    image: "images/The 100 Girlfriends Who Really.webp",
+    category: "Anime",
+    tags: ["Romance", "Harem", "Comedy"],
+    completed: true,
+    hasStar: false,
+    imdbUrl: "[https://www.imdb.com/title/tt28919914/](https://www.imdb.com/title/tt28919914/)",
+    malUrl: "[https://myanimelist.net/anime/54714/Kimi_no_Koto_ga_Daidaidaidaidaisuki_na_100-nin_no_Kanojo](https://myanimelist.net/anime/54714/Kimi_no_Koto_ga_Daidaidaidaidaisuki_na_100-nin_no_Kanojo)",
+    bio: "Cerita ini berfokus pada Rentaro Aijo, seorang pemuda yang telah menyatakan cinta dan ditolak sebanyak 100 kali selama masa sekolah menengahnya."
+  },
+  {
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
