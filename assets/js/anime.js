@@ -96,7 +96,7 @@ const animeData = [
     title: "Tensei shitara Ken deshita"
   },
   {
-    badgeTop: "Ep-02",
+    badgeTop: "Ep-03",
     hasStar: true,
     completed: false,
     category: "Anime",
