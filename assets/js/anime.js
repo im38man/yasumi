@@ -276,7 +276,7 @@ const animeData = [
     title: "Tank Chair"
   },
   {
-    badgeTop: "Ep-03",
+    badgeTop: "Ep-04",
     hasStar: true,
     completed: false,
     category: "Anime",
