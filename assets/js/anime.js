@@ -180,7 +180,7 @@ const animeData = [
     title: "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu."
   },
   {
-    badgeTop: "Ep-03",
+    badgeTop: "Ep-04",
     hasStar: true,
     completed: false,
     category: "Anime",
