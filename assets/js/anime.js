@@ -204,7 +204,7 @@ const animeData = [
     title: "Mahou Shoujo Ikusei Keikaku"
   },
   {
-    badgeTop: "Ep-03",
+    badgeTop: "Ep-04",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -348,7 +348,7 @@ const animeData = [
     bio: "Cerita ini berfokus pada Rentaro Aijo, seorang pemuda yang telah menyatakan cinta dan ditolak sebanyak 100 kali selama masa sekolah menengahnya."
   },
   {
-    badgeTop: "Ep-03",
+    badgeTop: "Ep-04",
     hasStar: true,
     completed: false,
     category: "Anime",
