@@ -84,7 +84,7 @@ const animeData = [
     title: "Tensei Kizoku, Kantei Skill de Nariagaru"
   },
   {
-    badgeTop: "S2. Ep-04",
+    badgeTop: "S2. Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
