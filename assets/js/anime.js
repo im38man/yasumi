@@ -36,7 +36,7 @@ const animeData = [
     title: "Tokyo Revengers"
   },
   {
-    badgeTop: "Ep-04",
+    badgeTop: "Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -48,7 +48,7 @@ const animeData = [
     title: "FX Senshi Kurumi-chan"
   },
   {
-    badgeTop: "Ep-17",
+    badgeTop: "Ep-18",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -60,7 +60,7 @@ const animeData = [
     title: "Tsuihou sareta Tensei Juukishi wa Game Chishinki de Musou suru"
   },
   {
-    badgeTop: "S2. EP-04",
+    badgeTop: "S2. EP-05",
     hasStar: true,
     completed: false,
     category: "Anime",
