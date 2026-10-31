@@ -12,7 +12,7 @@ const animeData = [
     title: "One Piece"
   },
   {
-    badgeTop: "Ep-174",
+    badgeTop: "Ep-175",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -312,7 +312,7 @@ const animeData = [
     title: "Ao Ashi"
   },
   {
-    badgeTop: "Ep-04",
+    badgeTop: "Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -360,7 +360,7 @@ const animeData = [
     title: "Suikoden: The Anime"
   },
   {
-    badgeTop: "Ep-04",
+    badgeTop: "Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -396,7 +396,7 @@ const animeData = [
     title: "Romelia Senki"
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
