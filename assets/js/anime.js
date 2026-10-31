@@ -24,7 +24,7 @@ const animeData = [
     title: "Black Clover"
   },
   {
-    badgeTop: "S4. Ep-04",
+    badgeTop: "S4. Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -108,7 +108,7 @@ const animeData = [
     title: "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku"
   },
   {
-    badgeTop: "Ep-03",
+    badgeTop: "Ep-04",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -228,7 +228,7 @@ const animeData = [
     title: "Tempal: Item no Chikara"
   },
   {
-    badgeTop: "S2. Ep-05",
+    badgeTop: "S2. Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -372,7 +372,7 @@ const animeData = [
     title: "#Zombie Sagashitemasu"
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -384,7 +384,7 @@ const animeData = [
     title: "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu"
   },
   {
-    badgeTop: "Ep-04",
+    badgeTop: "Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
