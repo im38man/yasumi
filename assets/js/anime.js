@@ -300,7 +300,7 @@ const animeData = [
     title: "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai"
   },
   {
-    badgeTop: "S2. Ep-04",
+    badgeTop: "S2.Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
