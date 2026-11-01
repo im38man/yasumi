@@ -288,7 +288,7 @@ const animeData = [
     title: "Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta"
   },
   {
-    badgeTop: "Ep-04",
+    badgeTop: "Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
