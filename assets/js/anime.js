@@ -72,7 +72,7 @@ const animeData = [
     title: "Koori no Jouheki"
   },
   {
-    badgeTop: "S3. Ep-05",
+    badgeTop: "S3. Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -96,7 +96,7 @@ const animeData = [
     title: "Tensei shitara Ken deshita"
   },
   {
-    badgeTop: "Ep-03",
+    badgeTop: "Ep-04",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -216,7 +216,7 @@ const animeData = [
     title: "Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru"
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -276,7 +276,7 @@ const animeData = [
     title: "Tank Chair"
   },
   {
-    badgeTop: "Ep-04",
+    badgeTop: "Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
