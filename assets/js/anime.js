@@ -324,7 +324,7 @@ const animeData = [
     title: "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu"
   },
   {
-    badgeTop: "Ep-04",
+    badgeTop: "Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
