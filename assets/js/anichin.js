@@ -59,6 +59,18 @@ const anichinData = [
     malUrl: "javascript:void(0)", 
     title: "Soul Land 2: The Unrivaled Tang Sect" 
   },
+  {
+    badgeTop: "Ep-16",
+    hasStar: false,
+    completed: true,
+    category: "Donghua",
+    tags: ["E-Sports", "School", "Comedy", "Slice of Life"],
+    bio: "Kisah Xiao He yang menjalani kehidupan ganda yang sukses sebagai mahasiswa kedokteran berprestasi di siang hari dan pemain e-sports profesional di malam hari.",
+    imdbUrl: "javascript:void(0)",
+    image: "images/Cheng_Ye_Xiao_He.webp",
+    malUrl: "https://myanimelist.net/anime/61634/Cheng_Ye_Xiao_He",
+    title: "To Be Winner"
+  },
   { 
     badgeTop: "End.Ep-208", 
     hasStar: true, 
