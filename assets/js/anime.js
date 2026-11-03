@@ -204,7 +204,7 @@ const animeData = [
     title: "Mahou Shoujo Ikusei Keikaku"
   },
   {
-    badgeTop: "Ep-04",
+    badgeTop: "Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
