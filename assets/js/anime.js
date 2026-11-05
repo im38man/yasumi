@@ -36,7 +36,7 @@ const animeData = [
     title: "Tokyo Revengers"
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
