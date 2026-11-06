@@ -48,7 +48,7 @@ const animeData = [
     title: "FX Senshi Kurumi-chan"
   },
   {
-    badgeTop: "Ep-18",
+    badgeTop: "Ep-19",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -60,7 +60,7 @@ const animeData = [
     title: "Tsuihou sareta Tensei Juukishi wa Game Chishinki de Musou suru"
   },
   {
-    badgeTop: "S2. EP-05",
+    badgeTop: "S2. EP-06",
     hasStar: true,
     completed: false,
     category: "Anime",
