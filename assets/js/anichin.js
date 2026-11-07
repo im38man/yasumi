@@ -12,7 +12,7 @@ const anichinData = [
     title: "Jade Dynasty" 
   },
   { 
-    badgeTop: "S4.Ep-248", 
+    badgeTop: "S4.Ep-249", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -24,7 +24,7 @@ const anichinData = [
     title: "Swallowed Star" 
   },
   { 
-    badgeTop: "Ep-165", 
+    badgeTop: "Ep-166", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -36,9 +36,9 @@ const anichinData = [
     title: "Renegade Immortal" 
   },
   { 
-    badgeTop: "S5.Ep-217", 
+    badgeTop: "S5.Ep-218", 
     hasStar: true, 
-    completed: false,
+    completed: true,
     category: "Anichin",
     tags: ["Fantasy", "Action", "Cultivation"],
     bio: "Xiao Yan bangkit dari keterpurukan setelah kehilangan kekuatan apinya demi membuktikan kemampuan sejatinya.",
@@ -48,7 +48,7 @@ const anichinData = [
     title: "Battle Through the Heavens" 
   },
   { 
-    badgeTop: "Ep-177", 
+    badgeTop: "Ep-178", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -85,3 +85,4 @@ const anichinData = [
     title: "Throne of Seal" 
   }
 ];
+
