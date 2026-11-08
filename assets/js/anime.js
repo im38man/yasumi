@@ -300,7 +300,7 @@ const animeData = [
     title: "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai"
   },
   {
-    badgeTop: "S2.Ep-05",
+    badgeTop: "S2.Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -324,7 +324,7 @@ const animeData = [
     title: "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu"
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",

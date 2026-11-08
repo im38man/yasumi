@@ -38,7 +38,7 @@ const anichinData = [
   { 
     badgeTop: "S5.Ep-218", 
     hasStar: true, 
-    completed: true,
+    completed: false,
     category: "Anichin",
     tags: ["Fantasy", "Action", "Cultivation"],
     bio: "Xiao Yan bangkit dari keterpurukan setelah kehilangan kekuatan apinya demi membuktikan kemampuan sejatinya.",
