@@ -156,7 +156,7 @@ const animeData = [
     title: "Tensei Goblin dakedo Shitsumon Aru?"
   },
   {
-    badgeTop: "Ep-04",
+    badgeTop: "Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -168,7 +168,7 @@ const animeData = [
     title: "Psyren"
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
