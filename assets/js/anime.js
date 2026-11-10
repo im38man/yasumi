@@ -108,7 +108,7 @@ const animeData = [
     title: "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku"
   },
   {
-    badgeTop: "Ep-04",
+    badgeTop: "Ep-05",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -180,7 +180,7 @@ const animeData = [
     title: "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu."
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -204,7 +204,7 @@ const animeData = [
     title: "Mahou Shoujo Ikusei Keikaku"
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -348,7 +348,7 @@ const animeData = [
     bio: "Cerita ini berfokus pada Rentaro Aijo, seorang pemuda yang telah menyatakan cinta dan ditolak sebanyak 100 kali selama masa sekolah menengahnya."
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
