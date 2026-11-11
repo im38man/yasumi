@@ -84,7 +84,7 @@ const animeData = [
     title: "Tensei Kizoku, Kantei Skill de Nariagaru"
   },
   {
-    badgeTop: "S2. Ep-06",
+    badgeTop: "S2. Ep-07",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -132,7 +132,7 @@ const animeData = [
     title: "Tougen Anki: Nikko Kegon no Taki-hen"
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
