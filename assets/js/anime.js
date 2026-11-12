@@ -48,7 +48,7 @@ const animeData = [
     title: "FX Senshi Kurumi-chan"
   },
   {
-    badgeTop: "Ep-19",
+    badgeTop: "Ep-20",
     hasStar: true,
     completed: false,
     category: "Anime",
