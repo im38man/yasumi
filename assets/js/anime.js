@@ -24,7 +24,7 @@ const animeData = [
     title: "Black Clover"
   },
   {
-    badgeTop: "S4. Ep-06",
+    badgeTop: "S4. Ep-07",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -108,7 +108,7 @@ const animeData = [
     title: "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku"
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
