@@ -12,7 +12,7 @@ const anichinData = [
     title: "Jade Dynasty" 
   },
   { 
-    badgeTop: "S4.Ep-249", 
+    badgeTop: "S4.Ep-250", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -24,7 +24,7 @@ const anichinData = [
     title: "Swallowed Star" 
   },
   { 
-    badgeTop: "Ep-166", 
+    badgeTop: "Ep-167", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -36,7 +36,7 @@ const anichinData = [
     title: "Renegade Immortal" 
   },
   { 
-    badgeTop: "S5.Ep-218", 
+    badgeTop: "S5.Ep-219", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -48,7 +48,7 @@ const anichinData = [
     title: "Battle Through the Heavens" 
   },
   { 
-    badgeTop: "Ep-178", 
+    badgeTop: "Ep-179", 
     hasStar: true, 
     completed: false,
     category: "Anichin",
@@ -61,7 +61,7 @@ const anichinData = [
   },
   {
     badgeTop: "Ep-16",
-    hasStar: false,
+    hasStar: true,
     completed: true,
     category: "Donghua",
     tags: ["E-Sports", "School", "Comedy", "Slice of Life"],
