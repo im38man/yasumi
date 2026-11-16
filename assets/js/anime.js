@@ -156,7 +156,7 @@ const animeData = [
     title: "Tensei Goblin dakedo Shitsumon Aru?"
   },
   {
-    badgeTop: "Ep-05",
+    badgeTop: "Ep-06",
     hasStar: true,
     completed: false,
     category: "Anime",
