@@ -144,7 +144,7 @@ const animeData = [
     title: "Sekai Saikyou no Majo, Hajimemashita"
   },
   {
-    badgeTop: "Ep-06",
+    badgeTop: "Ep-07",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -168,7 +168,7 @@ const animeData = [
     title: "Psyren"
   },
   {
-    badgeTop: "Ep-06",
+    badgeTop: "Ep-07",
     hasStar: true,
     completed: false,
     category: "Anime",
