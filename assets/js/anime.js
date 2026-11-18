@@ -132,7 +132,7 @@ const animeData = [
     title: "Tougen Anki: Nikko Kegon no Taki-hen"
   },
   {
-    badgeTop: "Ep-06",
+    badgeTop: "Ep-07",
     hasStar: true,
     completed: false,
     category: "Anime",
