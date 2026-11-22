@@ -12,7 +12,7 @@ const animeData = [
     title: "One Piece"
   },
   {
-    badgeTop: "Ep-178",
+    badgeTop: "Ep-179",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -216,7 +216,7 @@ const animeData = [
     title: "Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru"
   },
   {
-    badgeTop: "Ep-08",
+    badgeTop: "Ep-09",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -288,7 +288,7 @@ const animeData = [
     title: "Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta"
   },
   {
-    badgeTop: "Ep-07",
+    badgeTop: "Ep-08",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -300,7 +300,7 @@ const animeData = [
     title: "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai"
   },
   {
-    badgeTop: "S2.Ep-07",
+    badgeTop: "S2.Ep-08",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -324,7 +324,7 @@ const animeData = [
     title: "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu"
   },
   {
-    badgeTop: "Ep-07",
+    badgeTop: "Ep-08",
     hasStar: true,
     completed: false,
     category: "Anime",

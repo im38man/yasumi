@@ -36,18 +36,6 @@ const anichinData = [
     title: "Renegade Immortal" 
   },
   { 
-    badgeTop: "S5.Ep-220", 
-    hasStar: true, 
-    completed: false,
-    category: "Anichin",
-    tags: ["Fantasy", "Action", "Cultivation"],
-    bio: "Xiao Yan bangkit dari keterpurukan setelah kehilangan kekuatan apinya demi membuktikan kemampuan sejatinya.",
-    imdbUrl: "https://www.imdb.com/title/tt12409194/", 
-    image: "images/Dou Po Cang Qiong.webp", 
-    malUrl: "javascript:void(0)", 
-    title: "Battle Through the Heavens" 
-  },
-  { 
     badgeTop: "Ep-180", 
     hasStar: true, 
     completed: false,
@@ -70,6 +58,19 @@ const anichinData = [
     image: "images/Cheng_Ye_Xiao_He.webp",
     malUrl: "https://myanimelist.net/anime/61634/Cheng_Ye_Xiao_He",
     title: "To Be Winner"
+  },
+  { 
+    badgeTop: "S5.Ep-220", 
+    hasStar: true, 
+    completed: true,
+    end: true,
+    category: "Anichin",
+    tags: ["Fantasy", "Action", "Cultivation"],
+    bio: "Xiao Yan bangkit dari keterpurukan setelah kehilangan kekuatan apinya demi membuktikan kemampuan sejatinya.",
+    imdbUrl: "https://www.imdb.com/title/tt12409194/", 
+    image: "images/Dou Po Cang Qiong.webp", 
+    malUrl: "javascript:void(0)", 
+    title: "Battle Through the Heavens" 
   },
   { 
     badgeTop: "End.Ep-208", 
