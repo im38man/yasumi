@@ -72,7 +72,7 @@ const animeData = [
     title: "Koori no Jouheki"
   },
   {
-    badgeTop: "S3. Ep-08",
+    badgeTop: "S3. Ep-09",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -96,7 +96,7 @@ const animeData = [
     title: "Tensei shitara Ken deshita"
   },
   {
-    badgeTop: "Ep-06",
+    badgeTop: "Ep-07",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -276,7 +276,7 @@ const animeData = [
     title: "Tank Chair"
   },
   {
-    badgeTop: "Ep-07",
+    badgeTop: "Ep-08",
     hasStar: true,
     completed: false,
     category: "Anime",
