@@ -144,7 +144,7 @@ const animeData = [
     title: "Sekai Saikyou no Majo, Hajimemashita"
   },
   {
-    badgeTop: "Ep-07",
+    badgeTop: "Ep-08",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -168,7 +168,7 @@ const animeData = [
     title: "Psyren"
   },
   {
-    badgeTop: "Ep-07",
+    badgeTop: "Ep-08",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -180,7 +180,7 @@ const animeData = [
     title: "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu."
   },
   {
-    badgeTop: "Ep-07",
+    badgeTop: "Ep-08",
     hasStar: true,
     completed: false,
     category: "Anime",
