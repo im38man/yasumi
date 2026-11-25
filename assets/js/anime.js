@@ -84,7 +84,7 @@ const animeData = [
     title: "Tensei Kizoku, Kantei Skill de Nariagaru"
   },
   {
-    badgeTop: "S2. Ep-08",
+    badgeTop: "S2. Ep-09",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -132,7 +132,7 @@ const animeData = [
     title: "Tougen Anki: Nikko Kegon no Taki-hen"
   },
   {
-    badgeTop: "Ep-07",
+    badgeTop: "Ep-08",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -204,7 +204,7 @@ const animeData = [
     title: "Mahou Shoujo Ikusei Keikaku"
   },
   {
-    badgeTop: "Ep-07",
+    badgeTop: "Ep-08",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -348,7 +348,7 @@ const animeData = [
     bio: "Cerita ini berfokus pada Rentaro Aijo, seorang pemuda yang telah menyatakan cinta dan ditolak sebanyak 100 kali selama masa sekolah menengahnya."
   },
   {
-    badgeTop: "Ep-07",
+    badgeTop: "Ep-08",
     hasStar: true,
     completed: false,
     category: "Anime",
