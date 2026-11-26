@@ -36,7 +36,7 @@ const animeData = [
     title: "Tokyo Revengers"
   },
   {
-    badgeTop: "Ep-08",
+    badgeTop: "Ep-09",
     hasStar: true,
     completed: false,
     category: "Anime",
@@ -60,7 +60,7 @@ const animeData = [
     title: "Tsuihou sareta Tensei Juukishi wa Game Chishinki de Musou suru"
   },
   {
-    badgeTop: "S2. EP-08",
+    badgeTop: "S2. EP-09",
     hasStar: true,
     completed: false,
     category: "Anime",
