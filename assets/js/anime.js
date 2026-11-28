@@ -24,7 +24,7 @@ const animeData = [
     title: "Black Clover"
   },
   {
-    badgeTop: "S4. Ep-08",
+    badgeTop: "S4. Ep-09",
     hasStar: true,
     completed: false,
     category: "Anime",
